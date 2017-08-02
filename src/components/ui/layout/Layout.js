@@ -10,6 +10,9 @@ class Layout extends Component {
     return (
       <div className="sv-row sv-no-margins">
         <Header />
+        <div className="content">
+          {this.props.children}
+        </div>
       </div>
     );
   }

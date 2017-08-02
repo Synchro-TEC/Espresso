@@ -1,3 +1,27 @@
+body {
+    background: #ECECEC;
+}
+
+.out-header {
+  width: 100%;
+  background-color: #fff;
+  display: block;
+  height: 120px;
+}
+.out-header header {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 120px;
+}
+.content {
+  border-top: 25px solid #ECECEC;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  height: 90vh;
+  padding: 25px;
+}
+
 /* .layout-sidebar {
   height: 60px;
   width: 100%;
