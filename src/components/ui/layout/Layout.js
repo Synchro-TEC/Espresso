@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './header';
+import { SvRow } from 'syntec-apollo-11';
 
 class Layout extends Component {
   constructor(props) {
@@ -27,10 +28,10 @@ class Layout extends Component {
 
   render() {
     return (
-      <div className="sv-row sv-no-margins">
+      <SvRow className="sv-ma--0">
         <Header />
         {this.props.location.pathname === '/' ? this.renderHome() : this.renderPage()}
-      </div>
+      </SvRow>
     );
   }
 }
