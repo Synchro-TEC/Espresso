@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './header';
 import { SvRow } from 'syntec-apollo-11';
+import { NavLink } from 'react-router-dom';
 
 class Layout extends Component {
   constructor(props) {
@@ -21,7 +22,43 @@ class Layout extends Component {
   renderPage() {
     return (
       <div className="content">
-        {this.props.children}
+        <aside className="inner-menu sv-pv--20">
+          <ul>
+            <li>
+              <NavLink activeClassName="selected" exact to="/guide">
+                Introdução
+              </NavLink>
+            </li>
+            <li>
+              <NavLink activeClassName="selected" exact to="/guide/espacamentos">
+                Espaçamentos
+              </NavLink>
+            </li>
+            <li>
+              <NavLink activeClassName="selected" exact to="/guide/alinhamentos">
+                Alinhamento
+              </NavLink>
+            </li>
+            <li>
+              <NavLink activeClassName="selected" exact to="/guide/contraste">
+                Contraste
+              </NavLink>
+            </li>
+            <li>
+              <NavLink activeClassName="selected" exact to="/guide/sejadireto">
+                Seja Direto
+              </NavLink>
+            </li>
+            <li>
+              <NavLink activeClassName="selected" exact to="/guide/synchro">
+                Synchro Headers
+              </NavLink>
+            </li>
+          </ul>
+        </aside>
+        <section className="inner-content sv-pa--20">
+          {this.props.children}
+        </section>
       </div>
     );
   }

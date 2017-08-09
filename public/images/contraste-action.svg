@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="3610 0 652 368">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-contraste-action);
+      }
+
+      .cls-2 {
+        fill: #ecf7ff;
+        stroke: #a5c1d5;
+        fill-rule: evenodd;
+        opacity: 0.39;
+      }
+
+      .cls-3 {
+        fill: #86ceff;
+      }
+
+      .cls-4 {
+        fill: #2aa213;
+      }
+
+      .cls-4, .cls-5 {
+        font-size: 14px;
+        font-family: FiraSans-Medium, Fira Sans;
+        font-weight: 500;
+      }
+
+      .cls-5 {
+        fill: #fb1010;
+      }
+
+      .cls-6, .cls-9 {
+        fill: #3b95e3;
+      }
+
+      .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-7, .cls-9 {
+        font-size: 16px;
+        font-family: FiraSans-Regular, Fira Sans;
+      }
+
+      .cls-11, .cls-8 {
+        fill: none;
+      }
+
+      .cls-8 {
+        stroke: #3b95e3;
+      }
+
+      .cls-10 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-contraste-action">
+      <rect x="3610" width="652" height="368"/>
+    </clipPath>
+  </defs>
+  <g id="contraste-action" class="cls-1">
+    <g id="Group_2359" data-name="Group 2359" transform="translate(2855 -392)">
+      <path id="path" class="cls-2" d="M0,141l14.125-6.679L28.25,141l14.125-6.679L56.5,141l14.125-6.679L84.75,141l14.125-6.679L113,141l14.125-6.679L141.25,141l14.125-6.679L169.5,141l14.125-6.679L197.75,141l14.125-6.679L226,141l14.125-6.679L254.25,141l14.125-6.679L282.5,141l14.125-6.679L310.75,141l14.125-6.679L339,141l14.125-6.679L367.25,141l14.125-6.679L395.5,141l14.125-6.679L423.75,141l14.125-6.679L452,141l14.125-6.679L480.25,141l14.125-6.679L508.5,141l14.125-6.679L536.75,141l14.125-6.679L565,141V0H0Z" transform="translate(803 392)"/>
+      <rect id="Rectangle_122" data-name="Rectangle 122" class="cls-3" width="565" height="30.624" transform="translate(803 392)"/>
+    </g>
+    <g id="Group_2360" data-name="Group 2360" transform="translate(2856 -199)">
+      <path id="path-2" data-name="path" class="cls-2" d="M0,141l14.125-6.679L28.25,141l14.125-6.679L56.5,141l14.125-6.679L84.75,141l14.125-6.679L113,141l14.125-6.679L141.25,141l14.125-6.679L169.5,141l14.125-6.679L197.75,141l14.125-6.679L226,141l14.125-6.679L254.25,141l14.125-6.679L282.5,141l14.125-6.679L310.75,141l14.125-6.679L339,141l14.125-6.679L367.25,141l14.125-6.679L395.5,141l14.125-6.679L423.75,141l14.125-6.679L452,141l14.125-6.679L480.25,141l14.125-6.679L508.5,141l14.125-6.679L536.75,141l14.125-6.679L565,141V0H0Z" transform="translate(803 392)"/>
+      <rect id="Rectangle_122-2" data-name="Rectangle 122" class="cls-3" width="565" height="30.624" transform="translate(803 392)"/>
+    </g>
+    <text id="SEMPRE" class="cls-4" transform="translate(3658 357)"><tspan x="0" y="0">SEMPRE</tspan></text>
+    <text id="NUNCA" class="cls-5" transform="translate(3658 162)"><tspan x="0" y="0">NUNCA</tspan></text>
+    <rect id="Rectangle_133" data-name="Rectangle 133" class="cls-6" width="85" height="34" rx="3" transform="translate(3683 257)"/>
+    <text id="NOVO" class="cls-7" transform="translate(3705 280)"><tspan x="0" y="0">NOVO</tspan></text>
+    <g id="Rectangle_134" data-name="Rectangle 134" class="cls-8" transform="translate(3788 257)">
+      <rect class="cls-10" width="89" height="34" rx="3"/>
+      <rect class="cls-11" x="0.5" y="0.5" width="88" height="33" rx="2.5"/>
+    </g>
+    <text id="EDITAR" class="cls-9" transform="translate(3808 280)"><tspan x="0" y="0">EDITAR</tspan></text>
+    <g id="Rectangle_135" data-name="Rectangle 135" class="cls-8" transform="translate(3897 257)">
+      <rect class="cls-10" width="108" height="34" rx="3"/>
+      <rect class="cls-11" x="0.5" y="0.5" width="107" height="33" rx="2.5"/>
+    </g>
+    <text id="EXPORTAR" class="cls-9" transform="translate(3917 280)"><tspan x="0" y="0">EXPORTAR</tspan></text>
+    <rect id="Rectangle_136" data-name="Rectangle 136" class="cls-6" width="85" height="34" rx="3" transform="translate(3679 62)"/>
+    <text id="NOVO-2" data-name="NOVO" class="cls-7" transform="translate(3701 85)"><tspan x="0" y="0">NOVO</tspan></text>
+    <rect id="Rectangle_137" data-name="Rectangle 137" class="cls-6" width="89" height="34" rx="3" transform="translate(3784 62)"/>
+    <text id="EDITAR-2" data-name="EDITAR" class="cls-7" transform="translate(3804 85)"><tspan x="0" y="0">EDITAR</tspan></text>
+    <rect id="Rectangle_138" data-name="Rectangle 138" class="cls-6" width="108" height="34" rx="3" transform="translate(3893 62)"/>
+    <text id="EXPORTAR-2" data-name="EXPORTAR" class="cls-7" transform="translate(3913 85)"><tspan x="0" y="0">EXPORTAR</tspan></text>
+  </g>
+</svg>

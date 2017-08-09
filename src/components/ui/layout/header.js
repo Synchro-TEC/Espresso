@@ -14,17 +14,17 @@ const Header = () => {
 
         <ul className="navigation">
           <li>
-            <NavLink to="/" activeClassName="selected">
+            <NavLink exact to="/" activeClassName="selected">
               HOME
             </NavLink>
           </li>
           <li>
-            <NavLink to="/guia" activeClassName="selected">
+            <NavLink to="/guide" activeClassName="selected">
               GUIA DE USO
             </NavLink>
           </li>
           <li>
-            <NavLink to="/componentes" activeClassName="selected">
+            <NavLink to="/components" activeClassName="selected">
               COMPONENTES
             </NavLink>
           </li>
