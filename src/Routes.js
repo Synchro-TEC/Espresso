@@ -6,6 +6,7 @@ import Alinhamento from './pages/guides/alinhamento';
 import Contraste from './pages/guides/contraste';
 import Direto from './pages/guides/direto';
 import Synchro from './pages/guides/synchro';
+import Buttons from './pages/guides/buttons';
 import Iniciando from './pages/components/iniciando';
 import Grid from './pages/components/grid';
 import Colors from './pages/components/colors';
@@ -50,6 +51,11 @@ const routes = [
     path: '/guide/synchro',
     exact: true,
     component: Synchro,
+  },
+  {
+    path: '/guide/botoes',
+    exact: true,
+    component: Buttons,
   },
   {
     path: '/components',
