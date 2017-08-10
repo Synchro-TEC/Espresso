@@ -3872,7 +3872,7 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-"lodash@>=3.5 <5", lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.2.0, lodash@^4.3.0:
+"lodash@>=3.5 <5", lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -4988,9 +4988,9 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-animate-height@^0.9.9:
-  version "0.9.9"
-  resolved "https://registry.yarnpkg.com/react-animate-height/-/react-animate-height-0.9.9.tgz#96bd0fc5fb10e33ae1b97d8076d488eace93ad00"
+react-animate-height@^0.9.13:
+  version "0.9.13"
+  resolved "https://registry.yarnpkg.com/react-animate-height/-/react-animate-height-0.9.13.tgz#dd01196da3e772a37aca5770063d036f79d5fad5"
   dependencies:
     classnames "^2.2.5"
     prop-types "^15.5.8"

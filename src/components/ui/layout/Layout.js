@@ -61,7 +61,47 @@ class Layout extends Component {
       <ul>
         <li>
           <NavLink activeClassName="selected" exact to="/components">
-            Component
+            Introdução
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="selected" exact to="/components/iniciando">
+            Iniciando
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="selected" exact to="/components/grid">
+            Grid System
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="selected" exact to="/components/cores">
+            Cores
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="selected" exact to="/components/espacamentos">
+            Espaçamentos
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="selected" exact to="/components/breadcrumbs">
+            breadcrumbs
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="selected" exact to="/components/loaders">
+            loaders
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="selected" exact to="/components/messagebox">
+            message box
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="selected" exact to="/components/tags">
+            tags
           </NavLink>
         </li>
       </ul>

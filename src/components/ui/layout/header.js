@@ -5,12 +5,7 @@ const Header = () => {
   return (
     <div className="out-header">
       <header>
-        <img
-          src={`${process.env.PUBLIC_URL}images/logo-espresso.svg`}
-          className="sv-mt--30"
-          width="250"
-          height="auto"
-        />
+        <img src={`${process.env.PUBLIC_URL}images/logo-espresso.svg`} className="sv-mt--25" height="30" width="auto" />
 
         <ul className="navigation">
           <li>
