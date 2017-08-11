@@ -4,6 +4,7 @@ import Components from './pages/Components';
 import Espacamento from './pages/guides/espacamento';
 import Alinhamento from './pages/guides/alinhamento';
 import Contraste from './pages/guides/contraste';
+import Consistencia from './pages/guides/consistencia';
 import Direto from './pages/guides/direto';
 import Synchro from './pages/guides/synchro';
 import Buttons from './pages/guides/buttons';
@@ -15,6 +16,11 @@ import Breadcrumbs from './pages/components/breadcrumbs';
 import Loaders from './pages/components/loaders';
 import Messagebox from './pages/components/messageBox';
 import Tags from './pages/components/tags';
+import ButtonsPage from './pages/components/buttons';
+import FormsPage from './pages/components/forms';
+import Typografy from './pages/components/typografy';
+import Cards from './pages/components/cards';
+import Tables from './pages/components/tables';
 
 const routes = [
   {
@@ -46,6 +52,11 @@ const routes = [
     path: '/guide/sejadireto',
     exact: true,
     component: Direto,
+  },
+  {
+    path: '/guide/consistencia',
+    exact: true,
+    component: Consistencia,
   },
   {
     path: '/guide/synchro',
@@ -101,6 +112,31 @@ const routes = [
     path: '/components/tags',
     exact: true,
     component: Tags,
+  },
+  {
+    path: '/components/buttons',
+    exact: true,
+    component: ButtonsPage,
+  },
+  {
+    path: '/components/formularios',
+    exact: true,
+    component: FormsPage,
+  },
+  {
+    path: '/components/tipografia',
+    exact: true,
+    component: Typografy,
+  },
+  {
+    path: '/components/cards',
+    exact: true,
+    component: Cards,
+  },
+  {
+    path: '/components/tabelas',
+    exact: true,
+    component: Tables,
   },
 ];
 

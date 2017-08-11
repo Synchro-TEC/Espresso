@@ -48,6 +48,11 @@ class Layout extends Component {
           </NavLink>
         </li>
         <li>
+          <NavLink activeClassName="selected" exact to="/guide/consistencia">
+            Consistência
+          </NavLink>
+        </li>
+        <li>
           <NavLink activeClassName="selected" exact to="/guide/buttons">
             Buttons
           </NavLink>
@@ -107,6 +112,31 @@ class Layout extends Component {
         <li>
           <NavLink activeClassName="selected" exact to="/components/tags">
             tags
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="selected" exact to="/components/buttons">
+            Buttons
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="selected" exact to="/components/formularios">
+            Formulários
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="selected" exact to="/components/tipografia">
+            Tipografia
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="selected" exact to="/components/cards">
+            Cards
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="selected" exact to="/components/tabelas">
+            Tabelas
           </NavLink>
         </li>
       </ul>
