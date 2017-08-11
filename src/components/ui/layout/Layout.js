@@ -48,13 +48,13 @@ class Layout extends Component {
           </NavLink>
         </li>
         <li>
-          <NavLink activeClassName="selected" exact to="/guide/synchro">
-            Synchro Headers
+          <NavLink activeClassName="selected" exact to="/guide/buttons">
+            Buttons
           </NavLink>
         </li>
         <li>
-          <NavLink activeClassName="selected" exact to="/guide/botoes">
-            Botões
+          <NavLink activeClassName="selected" exact to="/guide/synchro">
+            Synchro Headers
           </NavLink>
         </li>
       </ul>

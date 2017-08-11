@@ -26,8 +26,23 @@ class Direto extends Component {
               <b>NÃO</b> como opções de ação, ao invéz disso use <b>ACEITAR</b> e <b>RECUSAR</b>.
             </p>
           </SvCol>
-          <SvCol>
-            <img src={`${process.env.PUBLIC_URL}images/direct-form.svg`} alt="Seja direto" />
+          <SvCol className="sv-pl--50">
+            <div className="sv-card sv-pa--15">
+              <h5 className="sv-mb--15 sv-color--steel-600">Aceita compartilhar sua localização?</h5>
+              <p className="sv-text-right">
+                <button className="sv-button out-info">NÃO</button>
+                <button className="sv-button info sv-ml--15">SIM</button>
+              </p>
+            </div>
+            <div className="nunca" />
+            <div className="sv-card sv-pa--15">
+              <h5 className="sv-mb--15 sv-color--steel-600">Aceita compartilhar sua localização?</h5>
+              <p className="sv-text-right">
+                <button className="sv-button out-info">Recusar</button>
+                <button className="sv-button info sv-ml--15">Aceitar</button>
+              </p>
+            </div>
+            <div className="sempre" />
           </SvCol>
         </SvRow>
       </div>

@@ -183,6 +183,48 @@ body {
   border-bottom-right-radius: 4px;
 }
 
+.nunca, .sempre, .atencao  {
+  display: block;
+  clear: both;
+  margin: -10px 0 40px 0;
+}
+.nunca {
+  border-bottom: 3px solid #e57373;
+}
+.nunca::after {
+  content: "NUNCA";
+  font-size: 12px;
+  font-weight: bold;
+  color: #ef5350;
+  top: 22px;
+  position: relative;
+}
+
+.sempre {
+  border-bottom: 3px solid #81c784;
+}
+.sempre::after {
+  content: "SEMPRE";
+  font-size: 12px;
+  font-weight: bold;
+  color: #4caf50;
+  top: 22px;
+  position: relative;
+}
+
+.atencao {
+  border-bottom: 3px solid #5EA7DE;
+}
+.atencao::after {
+  content: "ATENÇÃO";
+  font-size: 12px;
+  font-weight: bold;
+  color: #1A69A6;
+  top: 22px;
+  position: relative;
+}
+
+
 .ReactTabs__tab {
   display: inline-block;
   border: 1px solid transparent;

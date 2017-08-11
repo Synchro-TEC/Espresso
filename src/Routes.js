@@ -53,7 +53,7 @@ const routes = [
     component: Synchro,
   },
   {
-    path: '/guide/botoes',
+    path: '/guide/buttons',
     exact: true,
     component: Buttons,
   },

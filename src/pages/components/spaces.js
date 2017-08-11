@@ -89,13 +89,14 @@ class Spaces extends Component {
             <table className="sv-simple-table sv-mt--25">
               <thead>
                 <tr>
-                  <th colSpan="9" scope="col">
+                  <th colSpan="10" scope="col">
                     Valores
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                  <td scope="col">0px</td>
                   <td scope="col">5px</td>
                   <td scope="col">10px</td>
                   <td scope="col">15px</td>
@@ -107,6 +108,7 @@ class Spaces extends Component {
                   <td scope="col">100px</td>
                 </tr>
                 <tr>
+                  <td className="code">--0</td>
                   <td className="code">--5</td>
                   <td className="code">--10</td>
                   <td className="code">--15</td>

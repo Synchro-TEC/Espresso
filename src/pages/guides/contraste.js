@@ -20,9 +20,44 @@ class Contraste extends Component {
               contraste no item que queremos destacar, não deve existir mais de uma ação destacada na mesma área de
               visão, pois quando todas as ações parecem importantes nenhuma realmente é.
             </p>
+            <p>
+              O mesmo contraste entre botões pode ser usado em casos onde temos vários botões que compoem uma toolbox ou
+              algo assim.
+            </p>
           </SvCol>
-          <SvCol>
-            <img src={`${process.env.PUBLIC_URL}images/contraste-action.svg`} alt="Direcionando as ações" />
+          <SvCol className="sv-pl--50">
+            <div className="sv-card sv-pa--15">
+              <p className="sv-text-right sv-mb--0">
+                <button className="sv-button info">NOVO</button>
+                <button className="sv-button info sv-ml--15">EDITAR</button>
+                <button className="sv-button info sv-ml--15">EXPORTAR</button>
+              </p>
+            </div>
+            <div className="nunca" />
+            <div className="sv-card sv-pa--15">
+              <p className="sv-text-right sv-mb--0">
+                <button className="sv-button info">NOVO</button>
+                <button className="sv-button out-info sv-ml--15">EDITAR</button>
+                <button className="sv-button out-info sv-ml--15">EXPORTAR</button>
+              </p>
+            </div>
+            <div className="sempre" />
+            <div className="sv-card sv-pa--15">
+              <form className="sv-form">
+                <div className="sv-input-group sv-flex-right">
+                  <button className="sv-button info">
+                    <i className="fa fa-icon fa-fw fa-edit" />
+                  </button>
+                  <button className="sv-button info">
+                    <i className="fa fa-icon fa-fw fa-plus" />
+                  </button>
+                  <button className="sv-button info">
+                    <i className="fa fa-icon fa-fw fa-cog" />
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div className="sempre" />
           </SvCol>
         </SvRow>
         <h4 className="sv-fw-normal sv-fm-i sv-mt--40">Hierarquia de ações em botões</h4>
@@ -34,7 +69,7 @@ class Contraste extends Component {
               importância nível 3. Veja na imagem a seguir o uso correto.
             </p>
           </SvCol>
-          <SvCol className="sv-pl--100 sv-pr--25">
+          <SvCol className="sv-pl--100">
             <dl>
               <dt className="sv-mb--15">
                 <button className="sv-button info">Nível 1</button>
@@ -69,8 +104,41 @@ class Contraste extends Component {
               cancelar sempre seja a última opção do usuário, nesse caso ele sempre deve ter um contraste de nível 3.
             </p>
           </SvCol>
-          <SvCol>
-            <img src={`${process.env.PUBLIC_URL}images/contraste-form.svg`} alt="Contraste em formulários" />
+          <SvCol className="sv-pl--100">
+            <div className="sv-card sv-pa--15">
+              <form className="sv-form sv-mb--0">
+                <label>
+                  <span>Nome</span>
+                  <input type="text" />
+                </label>
+                <label>
+                  <span>E-mail</span>
+                  <input type="text" />
+                </label>
+                <div className="sv-form-action">
+                  <button className="sv-button out-info">cancelar</button>
+                  <button className="sv-button info sv-ml--15">salvar</button>
+                </div>
+              </form>
+            </div>
+            <div className="nunca" />
+            <div className="sv-card sv-pa--15">
+              <form className="sv-form sv-mb--0">
+                <label>
+                  <span>Nome</span>
+                  <input type="text" />
+                </label>
+                <label>
+                  <span>E-mail</span>
+                  <input type="text" />
+                </label>
+                <div className="sv-form-action">
+                  <button className="sv-button link link-default">cancelar</button>
+                  <button className="sv-button info sv-ml--15">salvar</button>
+                </div>
+              </form>
+            </div>
+            <div className="sempre" />
           </SvCol>
         </SvRow>
       </div>
