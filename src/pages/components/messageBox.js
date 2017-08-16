@@ -72,16 +72,16 @@ class MessageBox extends Component {
             </Tab>
           </TabList>
           <TabPanel className="ReactTabs__tab-panel" selectedClassName="ReactTabs__tab-panel--selected">
-            <h4 className="sv-fw-normal sv-fm-i">Message Box Success</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Message Box Success</h4>
             <hr />
             <ShowCase example={MessageBoxSuccess} code={messageBoxCodes.messageBoxSuccess} height="150px" />
-            <h4 className="sv-fw-normal sv-fm-i sv-mt--15">Message Box Error</h4>
+            <h4 className="sv-fw-normal sv-ts-i sv-mt--15">Message Box Error</h4>
             <hr />
             <ShowCase example={MessageBoxError} code={messageBoxCodes.messageBoxError} height="150px" />
-            <h4 className="sv-fw-normal sv-fm-i sv-mt--15">Message Box Info</h4>
+            <h4 className="sv-fw-normal sv-ts-i sv-mt--15">Message Box Info</h4>
             <hr />
             <ShowCase example={MessageBoxInfo} code={messageBoxCodes.messageBoxInfo} height="150px" />
-            <h4 className="sv-fw-normal sv-fm-i sv-mt--15">Message Box Warning</h4>
+            <h4 className="sv-fw-normal sv-ts-i sv-mt--15">Message Box Warning</h4>
             <hr />
             <ShowCase example={MessageBoxWarning} code={messageBoxCodes.messageBoxWarning} height="150px" />
           </TabPanel>

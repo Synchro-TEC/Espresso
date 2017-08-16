@@ -58,19 +58,19 @@ class Tags extends Component {
             </Tab>
           </TabList>
           <TabPanel className="ReactTabs__tab-panel" selectedClassName="ReactTabs__tab-panel--selected">
-            <h4 className="sv-fw-normal sv-fm-i">Tag default</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Tag default</h4>
             <hr />
             <ShowCase example={tagDefault} code={tagsCodes.tagDefault} height="90px" />
-            <h4 className="sv-fw-normal sv-fm-i sv-mt--15">Tag primary</h4>
+            <h4 className="sv-fw-normal sv-ts-i sv-mt--15">Tag primary</h4>
             <hr />
             <ShowCase example={tagPrimary} code={tagsCodes.tagPrimary} height="90px" />
-            <h4 className="sv-fw-normal sv-fm-i sv-mt--15">Tag danger</h4>
+            <h4 className="sv-fw-normal sv-ts-i sv-mt--15">Tag danger</h4>
             <hr />
             <ShowCase example={tagDanger} code={tagsCodes.tagDanger} height="90px" />
-            <h4 className="sv-fw-normal sv-fm-i sv-mt--15">Tag info</h4>
+            <h4 className="sv-fw-normal sv-ts-i sv-mt--15">Tag info</h4>
             <hr />
             <ShowCase example={tagInfo} code={tagsCodes.tagInfo} height="90px" />
-            <h4 className="sv-fw-normal sv-fm-i sv-mt--15">Tag warning</h4>
+            <h4 className="sv-fw-normal sv-ts-i sv-mt--15">Tag warning</h4>
             <hr />
             <ShowCase example={tagWarning} code={tagsCodes.tagWarning} height="90px" />
           </TabPanel>

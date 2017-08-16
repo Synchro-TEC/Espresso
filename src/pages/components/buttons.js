@@ -119,24 +119,24 @@ class ButtonsPage extends Component {
             </Tab>
           </TabList>
           <TabPanel className="ReactTabs__tab-panel" selectedClassName="ReactTabs__tab-panel--selected">
-            <h4 className="sv-fw-normal sv-fm-i">Estilos</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Estilos</h4>
             <hr />
 
             <p className="sv-text-big sv-mt--15">Solid, Outline e Link buttons possuem variantes de estilos.</p>
 
             <ShowCase example={buttonStyles} code={ButtonExamples.example2} height="220px" />
 
-            <h4 className="sv-fw-normal sv-fm-i">Small Buttons</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Small Buttons</h4>
             <hr />
 
             <ShowCase example={smallButtons} code={ButtonExamples.example3} height="220px" />
 
-            <h4 className="sv-fw-normal sv-fm-i">Full Buttons</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Full Buttons</h4>
             <hr />
 
             <ShowCase example={fullButtons} code={ButtonExamples.example4} height="130px" />
 
-            <h4 className="sv-fw-normal sv-fm-i">Botões com animação</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Botões com animação</h4>
             <hr />
 
             <ShowCase example={animatedButtons} code={ButtonExamples.animated} height="180px" />

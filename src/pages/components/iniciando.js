@@ -13,7 +13,7 @@ class Iniciando extends Component {
     return (
       <div>
         <h3 className="sv-fw-normal sv-mb--25">INICIANDO</h3>
-        <h4 className="sv-fw-normal sv-fm-i">Saturn-V</h4>
+        <h4 className="sv-fw-normal sv-ts-i">Saturn-V</h4>
         <hr />
         <p>
           A única configuração para o uso do Saturn-V é fazer o link dos arquivos do Saturn-V, diretamente de nossa CDN
@@ -22,7 +22,7 @@ class Iniciando extends Component {
         <SyntaxHighlighter language="html" style={atom}>
           {code.installSaturn}
         </SyntaxHighlighter>
-        <h4 className="sv-fw-normal sv-fm-i">Apollo-11</h4>
+        <h4 className="sv-fw-normal sv-ts-i">Apollo-11</h4>
         <hr />
         <p>Para instalar o Apollo-11 basta executar um dos comandos, dependendo de como você gerencia os pacotes.</p>
         <p>

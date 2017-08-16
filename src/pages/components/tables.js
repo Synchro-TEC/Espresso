@@ -26,7 +26,7 @@ class Tables extends Component {
             </Tab>
           </TabList>
           <TabPanel className="ReactTabs__tab-panel" selectedClassName="ReactTabs__tab-panel--selected">
-            <h4 className="sv-fw-normal sv-fm-i">Tabela Padrão</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Tabela Padrão</h4>
             <hr />
             <div className="sv-table-responsive-vertical">
               <table className="sv-table with--hover with--borders">
@@ -61,7 +61,7 @@ class Tables extends Component {
               </table>
             </div>
 
-            <h4 className="sv-fw-normal sv-fm-i">Tabela Zebrada</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Tabela Zebrada</h4>
             <hr />
             <table className="sv-table with--borders with--stripes with--hover">
               <thead>

@@ -106,7 +106,7 @@ class Breadcrumbs extends Component {
             </Tab>
           </TabList>
           <TabPanel className="ReactTabs__tab-panel" selectedClassName="ReactTabs__tab-panel--selected">
-            <h4 className="sv-fw-normal sv-fw-normal sv-fm-i">Breadcrumbs estilizado</h4>
+            <h4 className="sv-fw-normal sv-fw-normal sv-ts-i">Breadcrumbs estilizado</h4>
             <hr />
 
             <ShowCase
@@ -116,7 +116,7 @@ class Breadcrumbs extends Component {
               bgColorContent="#fff"
             />
 
-            <h4 className="sv-fw-normal sv-fw-normal sv-fm-i">Breadcrumbs Simplificados</h4>
+            <h4 className="sv-fw-normal sv-fw-normal sv-ts-i">Breadcrumbs Simplificados</h4>
             <hr />
 
             <ShowCase example={thinBreadCrumbs} code={breadcrumbsCodes.thinBreadcrumb} height="220px" />

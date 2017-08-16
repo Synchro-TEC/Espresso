@@ -26,7 +26,7 @@ class FormsPage extends Component {
             </Tab>
           </TabList>
           <TabPanel className="ReactTabs__tab-panel" selectedClassName="ReactTabs__tab-panel--selected">
-            <h4 className="sv-fw-normal sv-fm-i">Formulário Padrão</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Formulário Padrão</h4>
             <hr />
             <form className="sv-form">
               <fieldset>
@@ -77,7 +77,7 @@ class FormsPage extends Component {
 
             <div className="sv-mb--30" />
 
-            <h4 className="sv-fw-normal sv-fm-i">Formulário Compacto</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Formulário Compacto</h4>
             <hr />
             <form className="sv-form sv-compact">
               <fieldset className="bordered sv-bg-color--steel-50">
@@ -127,7 +127,7 @@ class FormsPage extends Component {
             </form>
             <div className="sv-mb--30" />
 
-            <h4 className="sv-fw-normal sv-fm-i">Exemplo de Formulário</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Exemplo de Formulário</h4>
             <hr />
             <form className="sv-form">
               <fieldset>

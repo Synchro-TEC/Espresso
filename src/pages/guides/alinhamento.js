@@ -11,7 +11,7 @@ class Alinhamento extends Component {
           veja a seguir alguns exemplos de como usar o alinhamento corretamente.
         </p>
 
-        <h4 className="sv-fw-normal sv-fm-i sv-mt--40">Alinhamento de texto</h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Alinhamento de texto</h4>
         <hr />
         <SvRow>
           <SvCol>
@@ -21,7 +21,7 @@ class Alinhamento extends Component {
             <img src={`${process.env.PUBLIC_URL}images/al-text.svg`} alt="Alinhamento de texto" />
           </SvCol>
         </SvRow>
-        <h4 className="sv-fw-normal sv-fm-i sv-mt--25">Alinhamento entre elementos</h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--25">Alinhamento entre elementos</h4>
         <hr />
         <SvRow>
           <SvCol>
@@ -35,7 +35,7 @@ class Alinhamento extends Component {
             <img src={`${process.env.PUBLIC_URL}images/al-elementos.svg`} alt="Alinhamento entre elementos" />
           </SvCol>
         </SvRow>
-        <h4 className="sv-fw-normal sv-fm-i sv-mt--25">Alinhamento de números</h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--25">Alinhamento de números</h4>
         <hr />
         <SvRow>
           <SvCol>

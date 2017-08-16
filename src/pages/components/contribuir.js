@@ -30,7 +30,7 @@ class Contribuir extends Component {
             <a href="https://github.com/Synchro-TEC/Espresso">[https://github.com/Synchro-TEC/Espresso]</a>
           </li>
         </ul>
-        <h4 className="sv-fw-normal sv-fm-i sv-mt--40">Contribuindo com o Saturn-V</h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Contribuindo com o Saturn-V</h4>
         <hr />
         <p>
           Para abertura de issues:{' '}
@@ -57,7 +57,7 @@ class Contribuir extends Component {
           <li>Ao finalizar sua implementação submeta um pull request no github!</li>
         </ol>
 
-        <h4 className="sv-fw-normal sv-fm-i sv-mt--40">Contribuindo com o Apollo-11</h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Contribuindo com o Apollo-11</h4>
         <hr />
         <p>
           Para abertura de issues:{' '}
@@ -87,7 +87,7 @@ class Contribuir extends Component {
           <li>Ao finalizar sua implementação submeta um pull request no github!</li>
         </ol>
 
-        <h4 className="sv-fw-normal sv-fm-i sv-mt--40">Contribuindo com a documentação do Espresso</h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Contribuindo com a documentação do Espresso</h4>
         <hr />
         <p>
           Para abertura de issues:{' '}

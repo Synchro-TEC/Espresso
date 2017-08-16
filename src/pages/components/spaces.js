@@ -127,10 +127,12 @@ class Spaces extends Component {
               <code className="sv-code">sv-pr--15</code>. Outros exemplos: margem horizontal de 20px podemos usar{' '}
               <code className="sv-code">sv-mh--20</code>, margem de 5px em todos lados{' '}
               <code className="sv-code">sv-ma--5</code>, padding vertical de 30px{' '}
-              <code className="sv-code">sv-pv--30</code>, etc.
+              <code className="sv-code">sv-pv--30</code>, etc. Vale lembrar que para zerar um espaçamento podemos usar o
+              modificador <code className="sv-code">--00</code>, exemplo removendo todo o padding de um elemento{' '}
+              <code className="sv-code">sv-pa--00</code>.
             </p>
 
-            <h4 className="sv-fw-normal sv-fm-i">Exemplo gráfico da aplicação de espaçamentos com padding</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Exemplo gráfico da aplicação de espaçamentos com padding</h4>
             <hr />
             <p className="sv-text-center">
               <img width="60%" src={`${process.env.PUBLIC_URL}images/spaces.svg`} style={{ margin: '0 auto' }} />

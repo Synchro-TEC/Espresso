@@ -34,17 +34,17 @@ class Loaders extends Component {
             </Tab>
           </TabList>
           <TabPanel className="ReactTabs__tab-panel" selectedClassName="ReactTabs__tab-panel--selected">
-            <h4 className="sv-fw-normal sv-fm-i">Loader em barra</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Loader em barra</h4>
             <hr />
             <ShowCase example={loaderBar} code={loadersCode.loaderBar} height="70px" />
-            <h4 className="sv-fw-normal sv-fm-i sv-mt--15">Loader em barra large</h4>
+            <h4 className="sv-fw-normal sv-ts-i sv-mt--15">Loader em barra large</h4>
             <hr />
             <ShowCase example={loaderBarLarge} code={loadersCode.loaderBarLarge} height="70px" />
 
-            <h4 className="sv-fw-normal sv-fm-i sv-mt--15">Loader spin</h4>
+            <h4 className="sv-fw-normal sv-ts-i sv-mt--15">Loader spin</h4>
             <hr />
             <ShowCase example={spinLoader} code={loadersCode.spinLoader} height="70px" />
-            <h4 className="sv-fw-normal sv-fm-i sv-mt--15">Loader spin large</h4>
+            <h4 className="sv-fw-normal sv-ts-i sv-mt--15">Loader spin large</h4>
             <hr />
             <ShowCase example={spinLoaderLarge} code={loadersCode.spinLoaderLarge} height="70px" />
           </TabPanel>

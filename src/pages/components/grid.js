@@ -185,14 +185,14 @@ class Grid extends Component {
               <code className="sv-code">sv-column</code> como filhos.
             </p>
             <ShowCase height="210px" example={gridExampe1Show} code={GridExamples.example1} />
-            <h4 className="sv-fw-normal sv-fm-i">Grid com margens</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Grid com margens</h4>
             <hr />
             <p>
               O grid também pode ser usado com margem entre as colunas, neste caso, use{' '}
               <code className="sv-code">sv-row--with-gutter</code>.
             </p>
             <ShowCase height="210px" example={gridExampe2Show} code={GridExamples.example2} />
-            <h4 className="sv-fw-normal sv-fm-i">Grid com colunas de tamanhos de diferentes</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Grid com colunas de tamanhos de diferentes</h4>
             <hr />
             <p>
               Nosso grid possui alguns helpers para ajudar em layouts com tamnhos diferentes das colunas. Os helpers
@@ -203,7 +203,7 @@ class Grid extends Component {
               <code className="sv-code">sv-column _20</code> para criar um coluna com 20% do tamnho disponivel.
             </p>
             <ShowCase height="210px" example={gridExampe3Show} code={GridExamples.example3} />
-            <h4 className="sv-fw-normal sv-fm-i">Grid com coluna de tamanho fixo</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Grid com coluna de tamanho fixo</h4>
             <hr />
             <p>
               Assim como nas colunas de tamanhos variados, estão disponíveis alguns helpers para ajudar em layouts com
@@ -216,7 +216,7 @@ class Grid extends Component {
               <code className="sv-code">sv-column _100--fixed</code> para criar um coluna com 100px fixo.
             </p>
             <ShowCase height="210px" example={gridExampe4Show} code={GridExamples.example4} />
-            <h4 className="sv-fw-normal sv-fm-i">Dicas</h4>
+            <h4 className="sv-fw-normal sv-ts-i">Dicas</h4>
             <hr />
             <p>
               Se você precisa de uma <code className="sv-code">.sv-row</code> ou uma{' '}
@@ -229,7 +229,7 @@ class Grid extends Component {
           <TabPanel className="ReactTabs__tab-panel" selectedClassName="ReactTabs__tab-panel--selected">
             <p>O Grid System do Saturn-V também está disponível no Apollo-11, visando assim facilitar o uso do grid.</p>
             <ShowCase height="210px" example={gridExampe1Show} code={GridExamples.example1Apollo} language="jsx" />
-            <h4 className="sv-fw-normal sv-fm-i">SvRow PropTypes</h4>
+            <h4 className="sv-fw-normal sv-ts-i">SvRow PropTypes</h4>
             <hr />
             <table className="sv-table with--hover with--borders">
               <thead>
@@ -260,7 +260,7 @@ class Grid extends Component {
                 </tr>
               </tbody>
             </table>
-            <h4 className="sv-fw-normal sv-fm-i">SvCol PropTypes</h4>
+            <h4 className="sv-fw-normal sv-ts-i">SvCol PropTypes</h4>
             <hr />
             <table className="sv-table with--hover with--borders">
               <thead>

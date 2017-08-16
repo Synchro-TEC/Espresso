@@ -36,7 +36,7 @@ class Buttons extends Component {
             </div>
           </SvCol>
         </SvRow>
-        <h4 className="sv-fw-normal sv-fm-i">Posicionamento</h4>
+        <h4 className="sv-fw-normal sv-ts-i">Posicionamento</h4>
         <hr />
         <SvRow>
           <SvCol>
@@ -77,7 +77,7 @@ class Buttons extends Component {
             <div className="sempre" />
           </SvCol>
         </SvRow>
-        <h4 className="sv-fw-normal sv-fm-i">Direita ou Esquerda?</h4>
+        <h4 className="sv-fw-normal sv-ts-i">Direita ou Esquerda?</h4>
         <hr />
         <SvRow>
           <SvCol>

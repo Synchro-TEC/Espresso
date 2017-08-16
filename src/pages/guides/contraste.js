@@ -11,7 +11,7 @@ class Contraste extends Component {
           interface, o uso coeso dessa tecnica é muito importante para uma navegação direcionada e fluída entre as
           principais ações que o usuário pode (em alguns casos, <b>devem</b>) executar.
         </p>
-        <h4 className="sv-fw-normal sv-fm-i sv-mt--40">Direcionando as Ações</h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Direcionando as Ações</h4>
         <hr />
         <SvRow>
           <SvCol>
@@ -60,7 +60,7 @@ class Contraste extends Component {
             <div className="sempre" />
           </SvCol>
         </SvRow>
-        <h4 className="sv-fw-normal sv-fm-i sv-mt--40">Hierarquia de ações em botões</h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Hierarquia de ações em botões</h4>
         <hr />
         <SvRow>
           <SvCol>
@@ -95,7 +95,7 @@ class Contraste extends Component {
             </dl>
           </SvCol>
         </SvRow>
-        <h4 className="sv-fw-normal sv-fm-i sv-mt--40">Contraste em um formulário</h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Contraste em um formulário</h4>
         <hr />
         <SvRow>
           <SvCol>

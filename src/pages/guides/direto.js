@@ -16,7 +16,7 @@ class Direto extends Component {
           <b>CANCELAR</b>, <b>ENVIAR</b>, <b>EXPORTAR</b>, <b>ACEITAR</b>, etc.
         </p>
         <p className="sv-text-large">Procure usar sempre apenas uma palavra, um verbo que define/resume a ação.</p>
-        <h4 className="sv-fw-normal sv-fm-i sv-mt--40">SIM e NÃO</h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">SIM e NÃO</h4>
         <hr />
         <SvRow>
           <SvCol>

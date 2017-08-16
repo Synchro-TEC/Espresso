@@ -16,7 +16,7 @@ class Espacamento extends Component {
           aplicação é fundamental. O espaçamento é o primeiro grau de separação entre setores de uma interface.
         </p>
 
-        <h4 className="sv-fw-normal sv-fm-i sv-mt--40">Espaçamento vertical de texto</h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Espaçamento vertical de texto</h4>
         <hr />
         <SvRow>
           <SvCol>
@@ -26,7 +26,7 @@ class Espacamento extends Component {
             <img src={`${process.env.PUBLIC_URL}images/es-txt-vertical.svg`} alt="Espaçamento vertical" />
           </SvCol>
         </SvRow>
-        <h4 className="sv-fw-normal sv-fm-i sv-mt--25">Espaçamento horizontal de texto</h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--25">Espaçamento horizontal de texto</h4>
         <hr />
         <SvRow>
           <SvCol>
@@ -39,7 +39,7 @@ class Espacamento extends Component {
             <img src={`${process.env.PUBLIC_URL}images/es-txt-horizontal.svg`} alt="Espaçamento horizontal" />
           </SvCol>
         </SvRow>
-        <h4 className="sv-fw-normal sv-fm-i sv-mt--25">Espaçamento entre elementos</h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--25">Espaçamento entre elementos</h4>
         <hr />
         <SvRow>
           <SvCol>
