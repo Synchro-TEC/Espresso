@@ -21,6 +21,7 @@ import FormsPage from './pages/components/forms';
 import Typografy from './pages/components/typografy';
 import Cards from './pages/components/cards';
 import Tables from './pages/components/tables';
+import Contribuir from './pages/components/contribuir';
 
 const routes = [
   {
@@ -137,6 +138,11 @@ const routes = [
     path: '/components/tabelas',
     exact: true,
     component: Tables,
+  },
+  {
+    path: '/components/como-contribuir',
+    exact: true,
+    component: Contribuir,
   },
 ];
 

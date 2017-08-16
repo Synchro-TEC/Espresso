@@ -80,6 +80,11 @@ class Layout extends Component {
           </NavLink>
         </li>
         <li>
+          <NavLink activeClassName="selected" exact to="/components/como-contribuir">
+            Como contribuir
+          </NavLink>
+        </li>
+        <li>
           <NavLink activeClassName="selected" exact to="/components/grid">
             Grid System
           </NavLink>
