@@ -54,7 +54,7 @@ class Home extends Component {
                 <h3 className="sv-color--blue-400">HTML/CSS Framework</h3>
                 <p className="sv-pa--20 sv-text-large">
                   SATURN-V é o nosso Framework CSS, agnóstico de plataformas e sem dependências, é apenas CSS e pode ser
-                  usado com qualqer stack de tecnologia.
+                  usado com qualquer stack de tecnologia.
                 </p>
               </SvCol>
               <SvCol className="sv-text-center sv-ph--30">
@@ -68,7 +68,7 @@ class Home extends Component {
                 </div>
                 <h3 className="sv-color--blue-400">Componentes React</h3>
                 <p className="sv-pa--20 sv-text-large">
-                  APOLLO-11 é o nosso set de componentes React, construído sobre SATURN-V focado na reutililação e
+                  APOLLO-11 é o nosso set de componentes React, construído sobre SATURN-V focado na reutilização e
                   composição para criar interfaces.
                 </p>
               </SvCol>
@@ -105,7 +105,7 @@ class Home extends Component {
               <SvCol size="_75">
                 <h2 className="sv-color--blue-400 sv-pl--50">OPEN SOURCE</h2>
                 <p className="sv-text-large sv-pt--25 sv-pr--100 sv-pl--50 sv-color--blue-400">
-                  “Duas cabeças pensam melhor do que uma”, acreditamos que juntos podemo fazer muito mais, por isso
+                  “Duas cabeças pensam melhor do que uma”, acreditamos que juntos podemos fazer muito mais, por isso
                   nossos projetos são Open Source, todos podem contribuir, seja usando e reportando problemas, sugerindo
                   melhorias ou ainda implementando novas funcionalidades.
                 </p>
