@@ -41,11 +41,11 @@ class Contribuir extends Component {
           <li>Faça um fork do projeto</li>
           <li>
             Faça um clone do seu fork e instale as dependências, basta rodar na raiz:{' '}
-            <code className="sv-code">npm intall</code>
+            <code className="sv-code">npm install</code>
           </li>
           <li>
             Instale a dependência para gerar a build do projeto:{' '}
-            <code className="sv-code">npm intall -g grunt-cli</code>
+            <code className="sv-code">npm install -g grunt-cli</code>
           </li>
           <li>
             Altere o arquivo <code className="sv-code">grunt/exec.js</code> para gerar uma cópia em um determinado
@@ -63,7 +63,7 @@ class Contribuir extends Component {
           Para abertura de issues:{' '}
           <a href="https://github.com/Synchro-TEC/saturn-v/issues">https://github.com/Synchro-TEC/saturn-v/issues</a>
         </p>
-        <p>Para desemvolvedores:</p>
+        <p>Para desenvolvedores:</p>
         <ol className="sv-ol">
           <li>Faça um fork do projeto</li>
           <li>
@@ -93,7 +93,7 @@ class Contribuir extends Component {
           Para abertura de issues:{' '}
           <a href="https://github.com/Synchro-TEC/Espresso/issues">https://github.com/Synchro-TEC/Espresso/issues</a>
         </p>
-        <p>Para desemvolvedores:</p>
+        <p>Para desenvolvedores:</p>
         <ol className="sv-ol">
           <li>Faça um fork do projeto</li>
           <li>
