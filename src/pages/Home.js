@@ -105,7 +105,7 @@ class Home extends Component {
               <SvCol size="_75">
                 <h2 className="sv-color--blue-400 sv-pl--50">OPEN SOURCE</h2>
                 <p className="sv-text-large sv-pt--25 sv-pr--100 sv-pl--50 sv-color--blue-400">
-                  “Duas cabeças pensam melhor do que uma”, acreditamos que juntos podemo fazer muito mais, por isso
+                  “Duas cabeças pensam melhor do que uma”, acreditamos que juntos podemos fazer muito mais, por isso
                   nossos projetos são Open Source, todos podem contribuir, seja usando e reportando problemas, sugerindo
                   melhorias ou ainda implementando novas funcionalidades.
                 </p>
