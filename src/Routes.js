@@ -22,6 +22,7 @@ import Typografy from './pages/components/typografy';
 import Cards from './pages/components/cards';
 import Tables from './pages/components/tables';
 import Contribuir from './pages/components/contribuir';
+import Helpers from './pages/components/helpers';
 
 const routes = [
   {
@@ -143,6 +144,11 @@ const routes = [
     path: '/components/como-contribuir',
     exact: true,
     component: Contribuir,
+  },
+  {
+    path: '/components/helpers',
+    exact: true,
+    component: Helpers,
   },
 ];
 

@@ -144,6 +144,11 @@ class Layout extends Component {
             Tabelas
           </NavLink>
         </li>
+        <li>
+          <NavLink activeClassName="selected" exact to="/components/helpers">
+            Helpers
+          </NavLink>
+        </li>
       </ul>
     );
   }
