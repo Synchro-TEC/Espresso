@@ -6,16 +6,16 @@ class Contribuir extends Component {
     return (
       <div>
         <h3 className="sv-fw-normal sv-mb--25">COMO CONTRIBUIR</h3>
-        <p className="sv-text-large">
+        <p>
           Existe várias maneiras de contribuir com o desenvolvimento do Espresso, seja com ideias, testando e reportando
           possíveis problemas ou ainda ajudando na codificação, com correção de problemas e implementaçã de novas
           funcionalidades.
         </p>
-        <p className="sv-text-large">
+        <p>
           Toda interação deve ser feita através do sistema de issues, desde bugs até debates sobre novas funcionalidades
           devem ser centralizados nas issues de cada projeto.
         </p>
-        <p className="sv-text-large">Lembramos que o Espresso é composto por 3 projetos:</p>
+        <p>Lembramos que o Espresso é composto por 3 projetos:</p>
         <ul>
           <li>
             Saturn-V - Nosso Framework CSS{' '}
