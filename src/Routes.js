@@ -23,6 +23,7 @@ import Cards from './pages/components/cards';
 import Tables from './pages/components/tables';
 import Contribuir from './pages/components/contribuir';
 import Helpers from './pages/components/helpers';
+import Lists from './pages/components/lists';
 
 const routes = [
   {
@@ -149,6 +150,11 @@ const routes = [
     path: '/components/helpers',
     exact: true,
     component: Helpers,
+  },
+  {
+    path: '/components/listas',
+    exact: true,
+    component: Lists,
   },
 ];
 

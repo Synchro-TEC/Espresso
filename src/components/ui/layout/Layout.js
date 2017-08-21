@@ -140,6 +140,11 @@ class Layout extends Component {
           </NavLink>
         </li>
         <li>
+          <NavLink activeClassName="selected" exact to="/components/listas">
+            Listas
+          </NavLink>
+        </li>
+        <li>
           <NavLink activeClassName="selected" exact to="/components/tabelas">
             Tabelas
           </NavLink>
