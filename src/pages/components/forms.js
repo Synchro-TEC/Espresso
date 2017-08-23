@@ -2,6 +2,171 @@ import React, { Component } from 'react';
 import { SvRow, SvCol } from 'syntec-apollo-11';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import ShowCase from '../../components/business/showcase/showcase';
+import formCodes from '../../codes/forms';
+
+const formDefault = () =>
+  <form className="sv-form">
+    <fieldset>
+      <legend>Exemplo de titulo</legend>
+      <SvRow>
+        <SvCol>
+          <label>
+            <span>Name</span>
+            <input name="name" type="text" />
+          </label>
+        </SvCol>
+      </SvRow>
+      <SvRow>
+        <SvCol>
+          <label>
+            <span>E-mail</span>
+            <input name="email" type="text" />
+          </label>
+        </SvCol>
+      </SvRow>
+      <SvRow>
+        <SvCol>
+          <label>
+            <span>Disabled Field</span>
+            <input disabled name="login" type="text" value="Disabled field" />
+          </label>
+        </SvCol>
+      </SvRow>
+      <SvRow>
+        <SvCol>
+          <label>
+            <span>Gender</span>
+            <div className="sv-select">
+              <select>
+                <option value="">Please, select</option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+              </select>
+              <label>
+                <i className="fa fa-angle-down fa-fw" />
+              </label>
+            </div>
+          </label>
+        </SvCol>
+      </SvRow>
+    </fieldset>
+    <div className="sv-form-action">
+      <button className="sv-button out-info">cancelar</button>
+      <button className="sv-button info sv-ml--15">salvar</button>
+    </div>
+  </form>;
+
+const formCompact = () =>
+  <form className="sv-form sv-compact">
+    <fieldset className="bordered sv-bg-color--steel-50">
+      <legend>Exemplo de titulo</legend>
+      <SvRow>
+        <SvCol>
+          <label>
+            <span>Name</span>
+            <input name="name" type="text" />
+          </label>
+        </SvCol>
+      </SvRow>
+      <SvRow>
+        <SvCol>
+          <label>
+            <span>E-mail</span>
+            <input name="email" type="text" />
+          </label>
+        </SvCol>
+      </SvRow>
+      <SvRow>
+        <SvCol>
+          <label>
+            <span>Disabled Field</span>
+            <input disabled name="login" type="text" value="Disabled field" />
+          </label>
+        </SvCol>
+      </SvRow>
+      <SvRow>
+        <SvCol>
+          <label>
+            <span>Gender</span>
+            <div className="sv-select">
+              <select>
+                <option value="">Please, select</option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+              </select>
+              <label>
+                <i className="fa fa-angle-down fa-fw" />
+              </label>
+            </div>
+          </label>
+        </SvCol>
+      </SvRow>
+    </fieldset>
+    <div className="sv-form-action">
+      <button className="sv-button out-info">cancelar</button>
+      <button className="sv-button info sv-ml--15">salvar</button>
+    </div>
+  </form>;
+
+const formGrid = () =>
+  <form className="sv-form sv-compact">
+    <fieldset className="bordered sv-bg-color--steel-50">
+      <legend>Exemplo de titulo</legend>
+      <SvRow withGutter>
+        <SvCol>
+          <label>
+            <span>First Name</span>
+            <input name="firstName" type="text" />
+          </label>
+        </SvCol>
+        <SvCol>
+          <label>
+            <span>Last Name</span>
+            <input name="lastName" type="text" />
+          </label>
+        </SvCol>
+        <SvCol>
+          <label>
+            <span>E-mail</span>
+            <input name="email" type="text" />
+          </label>
+        </SvCol>
+        <SvCol>
+          <label>
+            <span>Confirm E-mail</span>
+            <input name="confirmEmail" type="text" />
+          </label>
+        </SvCol>
+      </SvRow>
+      <SvRow withGutter>
+        <SvCol>
+          <label>
+            <span>Disabled Field</span>
+            <input disabled name="login" type="text" value="Disabled field" />
+          </label>
+        </SvCol>
+        <SvCol>
+          <label>
+            <span>Gender</span>
+            <div className="sv-select">
+              <select>
+                <option value="">Please, select</option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+              </select>
+              <label>
+                <i className="fa fa-angle-down fa-fw" />
+              </label>
+            </div>
+          </label>
+        </SvCol>
+      </SvRow>
+    </fieldset>
+    <div className="sv-form-action">
+      <button className="sv-button out-info">cancelar</button>
+      <button className="sv-button info sv-ml--15">salvar</button>
+    </div>
+  </form>;
 
 class FormsPage extends Component {
   render() {
@@ -27,105 +192,16 @@ class FormsPage extends Component {
           </TabList>
           <TabPanel className="ReactTabs__tab-panel" selectedClassName="ReactTabs__tab-panel--selected">
             <h4 className="sv-fw-normal sv-ts-i">Formulário Padrão</h4>
-            <hr />
-            <form className="sv-form">
-              <fieldset>
-                <legend>Exemplo de titulo</legend>
-                <SvRow>
-                  <SvCol>
-                    <label>
-                      <span>Name</span>
-                      <input name="name" type="text" />
-                    </label>
-                  </SvCol>
-                </SvRow>
-                <SvRow>
-                  <SvCol>
-                    <label>
-                      <span>E-mail</span>
-                      <input name="email" type="text" />
-                    </label>
-                  </SvCol>
-                </SvRow>
-                <SvRow>
-                  <SvCol>
-                    <label>
-                      <span>Disabled Field</span>
-                      <input disabled name="login" type="text" value="Disabled field" />
-                    </label>
-                  </SvCol>
-                </SvRow>
-                <SvRow>
-                  <SvCol>
-                    <label>
-                      <span>Gender</span>
-                      <div className="sv-select">
-                        <select>
-                          <option value="">Please, select</option>
-                          <option value="M">Male</option>
-                          <option value="F">Female</option>
-                        </select>
-                        <label>
-                          <i className="fa fa-angle-down fa-fw" />
-                        </label>
-                      </div>
-                    </label>
-                  </SvCol>
-                </SvRow>
-              </fieldset>
-            </form>
-
-            <div className="sv-mb--30" />
+            <hr className="sv-mb--10" />
+            <ShowCase example={formDefault} code={formCodes.defaultForm} height="450px" />
 
             <h4 className="sv-fw-normal sv-ts-i">Formulário Compacto</h4>
             <hr />
-            <form className="sv-form sv-compact">
-              <fieldset className="bordered sv-bg-color--steel-50">
-                <legend>Exemplo de titulo</legend>
-                <SvRow>
-                  <SvCol>
-                    <label>
-                      <span>Name</span>
-                      <input name="name" type="text" />
-                    </label>
-                  </SvCol>
-                </SvRow>
-                <SvRow>
-                  <SvCol>
-                    <label>
-                      <span>E-mail</span>
-                      <input name="email" type="text" />
-                    </label>
-                  </SvCol>
-                </SvRow>
-                <SvRow>
-                  <SvCol>
-                    <label>
-                      <span>Disabled Field</span>
-                      <input disabled name="login" type="text" value="Disabled field" />
-                    </label>
-                  </SvCol>
-                </SvRow>
-                <SvRow>
-                  <SvCol>
-                    <label>
-                      <span>Gender</span>
-                      <div className="sv-select">
-                        <select>
-                          <option value="">Please, select</option>
-                          <option value="M">Male</option>
-                          <option value="F">Female</option>
-                        </select>
-                        <label>
-                          <i className="fa fa-angle-down fa-fw" />
-                        </label>
-                      </div>
-                    </label>
-                  </SvCol>
-                </SvRow>
-              </fieldset>
-            </form>
-            <div className="sv-mb--30" />
+            <ShowCase example={formCompact} code={formCodes.compactForm} height="450px" />
+
+            <h4 className="sv-fw-normal sv-ts-i">Formulário usando Grid</h4>
+            <hr />
+            <ShowCase example={formGrid} code={formCodes.formGrid} height="300px" />
 
             <h4 className="sv-fw-normal sv-ts-i">Exemplo de Formulário</h4>
             <hr />
@@ -135,7 +211,7 @@ class FormsPage extends Component {
 
                 <label>
                   <span>Username</span>
-                  <input type="text" placeholder="Your username to login app" />
+                  <input type="text" placeholder="Your username to login app" readOnly />
                 </label>
 
                 <div className="sv-row--with-gutter sv-ma--0">
