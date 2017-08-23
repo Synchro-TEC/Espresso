@@ -136,7 +136,7 @@ class Layout extends Component {
         </li>
         <li>
           <NavLink activeClassName="selected" exact to="/components/cards">
-            Cards
+            Cards & Segmentos
           </NavLink>
         </li>
         <li>
