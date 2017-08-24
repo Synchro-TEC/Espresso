@@ -233,4 +233,32 @@ export default {
       </div>
   </div>
 </form>`,
+  inputMono: `<form class="sv-form">
+    <div class="sv-row--with-gutter">
+        <div class="sv-column">
+            <label><span>Campo normal</span>
+                <input type="text" placeholder="normal">
+            </label>
+        </div>
+        <div class="sv-column">
+            <label><span>Campo Monospaced (Code)</span>
+                <input type="text" placeholder="monospaced" class="code">
+            </label>
+        </div>
+    </div>
+</form>`,
+  labelsMessage: `<form class="sv-form">
+  <div class="sv-row--with-gutter">
+      <div class="sv-column">
+          <label><span data-info="(8 caracters)">CEP</span>
+              <input type="text">
+          </label>
+      </div>
+      <div class="sv-column">
+          <label><span data-info="(8 caracters)" data-error="Cep inválido">CEP</span>
+              <input type="text" class="is--invalid">
+          </label>
+      </div>
+  </div>
+</form>`,
 };

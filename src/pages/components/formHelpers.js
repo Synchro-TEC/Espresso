@@ -27,6 +27,44 @@ const validInvalid = () =>
     </SvRow>
   </form>;
 
+const fieldTextMono = () =>
+  <form className="sv-form">
+    <SvRow withGutter>
+      <SvCol>
+        <label>
+          <span>Campo normal</span>
+          <input type="text" placeholder="normal" />
+        </label>
+      </SvCol>
+      <SvCol>
+        <label>
+          <span>Campo Monospaced (Code)</span>
+          <input type="text" placeholder="monospaced" className="code" />
+        </label>
+      </SvCol>
+    </SvRow>
+  </form>;
+
+const labelMessages = () =>
+  <form className="sv-form">
+    <SvRow withGutter>
+      <SvCol>
+        <label>
+          <span data-info="(8 caracters)">CEP</span>
+          <input type="text" />
+        </label>
+      </SvCol>
+      <SvCol>
+        <label>
+          <span data-info="(8 caracters)" data-error="Cep inválido">
+            CEP
+          </span>
+          <input type="text" className="is--invalid" />
+        </label>
+      </SvCol>
+    </SvRow>
+  </form>;
+
 class FormHelpersPage extends Component {
   render() {
     return (
@@ -57,6 +95,24 @@ class FormHelpersPage extends Component {
             <h4 className="sv-fw-normal sv-ts-i">Inputs válidos e inválidos</h4>
             <hr className="sv-mb--10" />
             <ShowCase example={validInvalid} code={formCodes.validInvalid} height="120px" />
+
+            <h4 className="sv-fw-normal sv-ts-i">Inputs Monospaced</h4>
+            <hr className="sv-mb--10" />
+            <p>
+              O usu principal de inputs monospaced é para cenários onde o tipo de dado inserido é algum tipo de
+              configuração.
+            </p>
+            <ShowCase example={fieldTextMono} code={formCodes.inputMono} height="120px" />
+
+            <h4 className="sv-fw-normal sv-ts-i">Labels com mensagens</h4>
+            <hr className="sv-mb--10" />
+            <p>
+              Temos dois tipos de informação nos labels, ambos através de <code className="sv-code">data-</code>{' '}
+              atributos. Os atributos disponíveis são <code className="sv-code">data-info</code> para detalhes
+              informativos, como campo opcional ou obrigatório e <code className="sv-code">data-error</code> para exibir
+              possíveis erros de validação.
+            </p>
+            <ShowCase example={labelMessages} code={formCodes.labelsMessage} height="120px" />
           </TabPanel>
           <TabPanel className="ReactTabs__tab-panel" selectedClassName="ReactTabs__tab-panel--selected">
             <p>Em breve</p>

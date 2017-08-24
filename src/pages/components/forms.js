@@ -279,6 +279,10 @@ class FormsPage extends Component {
               selectedClassName="ReactTabs__tab--selected"
               disabledClassName="ReactTabs__tab--disabled"
             >
+              <label>
+                <span data-info="(Optional)">Birth Date</span>
+                <input type="text" placeholder="dd/mm/yyyy" />
+              </label>
               Apollo-11
             </Tab>
           </TabList>
