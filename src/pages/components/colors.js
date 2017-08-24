@@ -23,7 +23,7 @@ class Colors extends Component {
             <p className="sv-text-big sv-mt--25">
               Todas as cores podem ser usadas de 3 formas: Font Color, Background Color and Border Color. Para definir a
               cor da fonte, use o prefixo <code className="sv-code">sv-color</code> +{' '}
-              <code className="sv-code">--color-name</code>, por examplo:{' '}
+              <code className="sv-code">--color-name</code>, por exemplo:{' '}
               <code className="sv-code">sv-color--blue-50</code>. Para usar como background color use o prefixo
               <code className="sv-code">sv-bg-color</code>
               e para a cor das bordas <code className="sv-code">sv-bd-color</code>.

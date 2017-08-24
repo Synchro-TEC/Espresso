@@ -101,28 +101,28 @@ class Typograph extends Component {
             <hr />
             <h5 className="sv-fw-normal sv-ts-i sv-mt--10">Tamanho</h5>
             <p>
-              Além do tamanho padrão do texto, temos modificadores para textos com tamnho maior (<code className="sv-code">sv-text-large</code>)
+              Além do tamanho padrão do texto, temos modificadores para textos com tamanho maior (<code className="sv-code">sv-text-large</code>)
               e menores (<code className="sv-code">sv-text-small</code> e{' '}
               <code className="sv-code">sv-text-smaller</code>) que o padrão.
             </p>
             <ShowCase example={textSizes} code={typographyCodes.textSises} height="160px" />
             <h5 className="sv-fw-normal sv-ts-i sv-mt--10">Intensidade</h5>
             <p>
-              Temos dispoível 3 níveis de intensidade do texto, <code className="sv-code">sv-fw-thin</code>,{' '}
+              Temos disponíveis 3 níveis de intensidade do texto, <code className="sv-code">sv-fw-thin</code>,{' '}
               <code className="sv-code">sv-fw-normal</code> e <code className="sv-code">sv-fw-bold</code>.
             </p>
             <ShowCase example={fontWeights} code={typographyCodes.textWeights} height="160px" />
             <h5 className="sv-fw-normal sv-ts-i sv-mt--10">Estilos</h5>
             <p>
-              Temos dispoível 3 estilos modificadores de texto, <code className="sv-code">sv-ts-i</code> para itático,{' '}
+              Temos disponíveis 3 estilos modificadores de texto, <code className="sv-code">sv-ts-i</code> para itático,{' '}
               <code className="sv-code">sv-ts-u</code> para underline e <code className="sv-code">sv-ts-lt</code> para
               line through.
             </p>
             <ShowCase example={textStyles} code={typographyCodes.textStyles} height="160px" />
             <h5 className="sv-fw-normal sv-ts-i sv-mt--10">Estilos</h5>
             <p>
-              Está disponível 3 opções para transformação de texto, <code className="sv-code">sv-tt-u</code> para texto
-              em uppercase , <code className="sv-code">sv-tt-l</code> para texto em lowercase e{' '}
+              Estão disponíveis 3 opções para transformação de texto, <code className="sv-code">sv-tt-u</code> para
+              texto em uppercase , <code className="sv-code">sv-tt-l</code> para texto em lowercase e{' '}
               <code className="sv-code">sv-tt-c</code> para textos capitalized.
             </p>
             <ShowCase example={textTrans} code={typographyCodes.textTrans} height="160px" />

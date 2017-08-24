@@ -200,15 +200,15 @@ class Grid extends Component {
             </p>
             <p>
               Para usar um dos helpers, adicione na classe sv-column uma outra classe com _ + valor, ex:
-              <code className="sv-code">sv-column _20</code> para criar um coluna com 20% do tamnho disponivel.
+              <code className="sv-code">sv-column _20</code> para criar um coluna com 20% do tamanho disponível.
             </p>
             <ShowCase height="210px" example={gridExampe3Show} code={GridExamples.example3} />
             <h4 className="sv-fw-normal sv-ts-i">Grid com coluna de tamanho fixo</h4>
             <hr />
             <p>
               Assim como nas colunas de tamanhos variados, estão disponíveis alguns helpers para ajudar em layouts com
-              colunas de tamnho fixo. Os helpers disponíveis para colunas de tamnho fixo são: 100, 150, 200, 250 and 300
-              pixels. Lembrando que as outras colunas de uma row irão se ajustar automaticamente para preencher os
+              colunas de tamanho fixo. Os helpers disponíveis para colunas de tamanho fixo são: 100, 150, 200, 250 and
+              300 pixels. Lembrando que as outras colunas de uma row irão se ajustar automaticamente para preencher os
               espaços.
             </p>
             <p>
