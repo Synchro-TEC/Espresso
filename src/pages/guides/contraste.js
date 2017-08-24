@@ -100,7 +100,7 @@ class Contraste extends Component {
         <SvRow>
           <SvCol>
             <p>
-              Este exemplo é bastante clássico, a ação de cancelar em um formulário, no Espresso o padrão é que a ação
+              Este exemplo é bastante clássico, a ação de cancelar em um formulário, no ESPRESSO o padrão é que a ação
               cancelar sempre seja a última opção do usuário, nesse caso ele sempre deve ter um contraste de nível 3.
             </p>
           </SvCol>
