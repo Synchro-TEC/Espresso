@@ -139,6 +139,23 @@ class Contraste extends Component {
               </form>
             </div>
             <div className="sempre" />
+            <div className="sv-card sv-pa--15">
+              <form className="sv-form sv-mb--0">
+                <label>
+                  <span>Nome</span>
+                  <input type="text" />
+                </label>
+                <label>
+                  <span>E-mail</span>
+                  <input type="text" />
+                </label>
+                <div className="sv-form-action">
+                  <button className="sv-button link link-default small">cancelar</button>
+                  <button className="sv-button info small sv-ml--15">salvar</button>
+                </div>
+              </form>
+            </div>
+            <div className="sempre" />
           </SvCol>
         </SvRow>
       </div>

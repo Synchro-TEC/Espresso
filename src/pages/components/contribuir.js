@@ -55,13 +55,23 @@ class Contribuir extends Component {
             Para rodar a build do projeto em desenvolvimento: <code className="sv-code">grunt watch</code>
           </li>
           <li>Ao finalizar sua implementação submeta um pull request no github!</li>
+          <li>IMPORTANTE: mantenha o seu fork atualizado com repositório principal.</li>
+          <li>
+            <code className="sv-code">git remote add upstream git@github.com:Synchro-TEC/saturn-v.git</code>
+          </li>
+          <li>
+            <code className="sv-code">git fetch upstream</code>
+          </li>
+          <li>
+            <code className="sv-code">git pull upstream master</code> (ou qualquer outra branch que desejar).
+          </li>
         </ol>
 
         <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Contribuindo com o Apollo-11</h4>
         <hr />
         <p>
           Para abertura de issues:{' '}
-          <a href="https://github.com/Synchro-TEC/saturn-v/issues">https://github.com/Synchro-TEC/saturn-v/issues</a>
+          <a href="https://github.com/Synchro-TEC/apollo-11/issues">https://github.com/Synchro-TEC/apollo-11/issues</a>
         </p>
         <p>Para desenvolvedores:</p>
         <ol className="sv-ol">
@@ -85,6 +95,16 @@ class Contribuir extends Component {
             Para rodar a build do projeto em desenvolvimento: <code className="sv-code">yarn watch</code>
           </li>
           <li>Ao finalizar sua implementação submeta um pull request no github!</li>
+          <li>IMPORTANTE: mantenha o seu fork atualizado com repositório principal.</li>
+          <li>
+            <code className="sv-code">git remote add upstream git@github.com:Synchro-TEC/apollo-11.git</code>
+          </li>
+          <li>
+            <code className="sv-code">git fetch upstream</code>
+          </li>
+          <li>
+            <code className="sv-code">git pull upstream master</code> (ou qualquer outra branch que desejar).
+          </li>
         </ol>
 
         <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Contribuindo com a documentação do Espresso</h4>
@@ -108,6 +128,16 @@ class Contribuir extends Component {
             Para rodar a build do projeto em desenvolvimento: <code className="sv-code">yarn start</code>
           </li>
           <li>Ao finalizar sua implementação submeta um pull request no github!</li>
+          <li>IMPORTANTE: mantenha o seu fork atualizado com repositório principal.</li>
+          <li>
+            <code className="sv-code">git remote add upstream git@github.com:Synchro-TEC/Espresso.git</code>
+          </li>
+          <li>
+            <code className="sv-code">git fetch upstream</code>
+          </li>
+          <li>
+            <code className="sv-code">git pull upstream master</code> (ou qualquer outra branch que desejar).
+          </li>
         </ol>
       </div>
     );
