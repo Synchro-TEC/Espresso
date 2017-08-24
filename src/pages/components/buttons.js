@@ -1,8 +1,91 @@
 import React, { Component } from 'react';
 import { SvRow, SvCol } from 'syntec-apollo-11';
+import { SvButton, SvButtonOutline, SvButtonLink } from 'syntec-apollo-11';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import ShowCase from '../../components/business/showcase/showcase';
 import ButtonExamples from '../../codes/buttons';
+
+const buttonFullExampeShow = () =>
+  <div>
+    <p>Exemplos de botões com preenchimento completo.</p>
+    <p className="sv-text-center">
+      <SvButton className="sv-mr--5" fill="primary">
+        Primary
+      </SvButton>
+      <SvButton className="sv-mr--5" fill="info">
+        Info
+      </SvButton>
+      <SvButton className="sv-mr--5" fill="danger">
+        Danger
+      </SvButton>
+      <SvButton className="sv-mr--5" fill="warning">
+        Warning
+      </SvButton>
+      <SvButton className="sv-mr--5">Default</SvButton>
+    </p>
+  </div>;
+
+const smallButtonFullExampeShow = () =>
+  <div>
+    <p>Exemplos de botões com preenchimento completo.</p>
+    <p className="sv-text-center">
+      <SvButton className="sv-mr--5" fill="primary" small>
+        Primary
+      </SvButton>
+      <SvButton className="sv-mr--5" fill="info" small>
+        Info
+      </SvButton>
+      <SvButton className="sv-mr--5" fill="danger" small>
+        Danger
+      </SvButton>
+      <SvButton className="sv-mr--5" fill="warning" small>
+        Warning
+      </SvButton>
+      <SvButton className="sv-mr--5" small>
+        Default
+      </SvButton>
+    </p>
+  </div>;
+
+const buttonOutlineExampeShow = () =>
+  <div>
+    <p>Exemplos de botões no estilo outline.</p>
+    <p className="sv-text-center">
+      <SvButtonOutline className="sv-mr--5" fill="out-primary">
+        Primary
+      </SvButtonOutline>
+      <SvButtonOutline className="sv-mr--5" fill="out-info">
+        Info
+      </SvButtonOutline>
+      <SvButtonOutline className="sv-mr--5" fill="out-danger">
+        Danger
+      </SvButtonOutline>
+      <SvButtonOutline className="sv-mr--5" fill="out-warning">
+        Warning
+      </SvButtonOutline>
+      <SvButtonOutline className="sv-mr--5">Default</SvButtonOutline>
+    </p>
+  </div>;
+
+const buttonLinkExampeShow = () =>
+  <div>
+    <p>Exemplos de botões no estilo de link.</p>
+    <p className="sv-text-center">
+      <SvButtonLink className="sv-mr--5" fill="link-primary">
+        Primary
+      </SvButtonLink>
+      <SvButtonLink className="sv-mr--5" fill="link-info">
+        Info
+      </SvButtonLink>
+      <SvButtonLink className="sv-mr--5" fill="link-danger">
+        Danger
+      </SvButtonLink>
+      <SvButtonLink className="sv-mr--5" fill="link-warning">
+        Warning
+      </SvButtonLink>
+      <SvButtonLink className="sv-mr--5">Default</SvButtonLink>
+    </p>
+  </div>;
 
 const buttonStyles = () =>
   <div>
@@ -142,7 +225,44 @@ class ButtonsPage extends Component {
             <ShowCase example={animatedButtons} code={ButtonExamples.animated} height="180px" />
           </TabPanel>
           <TabPanel className="ReactTabs__tab-panel" selectedClassName="ReactTabs__tab-panel--selected">
-            <p>Em breve</p>
+            <h4 className="sv-fw-normal sv-ts-i">Estilos</h4>
+            <hr />
+
+            <p>
+              Os Buttons do Saturn-V também estão disponíveis no Apollo-11, visando assim facilitar o uso dos botões em
+              seu projeto.
+            </p>
+
+            <ShowCase
+              height="210px"
+              example={buttonFullExampeShow}
+              code={ButtonExamples.example1Apollo}
+              language="jsx"
+            />
+
+            <ShowCase
+              height="210px"
+              example={buttonOutlineExampeShow}
+              code={ButtonExamples.outlineExampleApollo}
+              language="jsx"
+            />
+
+            <ShowCase
+              height="210px"
+              example={buttonLinkExampeShow}
+              code={ButtonExamples.linkExampleApollo}
+              language="jsx"
+            />
+
+            <h4 className="sv-fw-normal sv-ts-i">Small Buttons</h4>
+            <hr />
+
+            <ShowCase
+              height="210px"
+              example={smallButtonFullExampeShow}
+              code={ButtonExamples.linkExampleApollo}
+              language="jsx"
+            />
           </TabPanel>
         </Tabs>
       </div>

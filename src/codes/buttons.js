@@ -67,4 +67,76 @@ export default {
 <button class="sv-bt-animated info download">
   <span>Download</span>
 </button>`,
+
+  example1Apollo: `
+  import React, { Component } from 'react';
+  import { SvButton } from 'syntec-apollo-11';
+
+  class Example extends Component {
+    constructor(props){
+      super(props);
+    }
+
+    render() {
+      return (
+        <div>
+          <SvButton className="sv-mr--5" fill="primary">
+            Primary
+          </SvButton>
+          <SvButton className="sv-mr--5">
+            Default
+          </SvButton>
+        </div>
+      );
+    }
+  }
+  `,
+
+  outlineExampleApollo: `
+  import React, { Component } from 'react';
+  import { SvButtonOutline } from 'syntec-apollo-11';
+
+  class Example extends Component {
+    constructor(props){
+      super(props);
+    }
+
+    render() {
+      return (
+        <div>
+          <SvButtonOutline className="sv-mr--5" fill="primary">
+            Primary
+          </SvButtonOutline>
+          <SvButtonOutline className="sv-mr--5">
+            Default
+          </SvButtonOutline>
+        </div>
+      );
+    }
+  }
+  `,
+
+  linkExampleApollo: `
+  import React, { Component } from 'react';
+  import { SvButtonLink } from 'syntec-apollo-11';
+
+  class Example extends Component {
+    constructor(props){
+      super(props);
+    }
+
+    render() {
+      return (
+        <div>
+          <SvButtonLink className="sv-mr--5" fill="primary">
+            Primary
+          </SvButtonLink>
+          <SvButtonLink className="sv-mr--5">
+            Default
+          </SvButtonLink>
+        </div>
+      );
+    }
+  }
+  `,
 };
