@@ -18,6 +18,7 @@ import Messagebox from './pages/components/messageBox';
 import Tags from './pages/components/tags';
 import ButtonsPage from './pages/components/buttons';
 import FormsPage from './pages/components/forms';
+import FormHelpersPage from './pages/components/formHelpers';
 import Typografy from './pages/components/typografy';
 import Cards from './pages/components/cards';
 import Tables from './pages/components/tables';
@@ -125,6 +126,11 @@ const routes = [
     path: '/components/formularios',
     exact: true,
     component: FormsPage,
+  },
+  {
+    path: '/components/form-helpers',
+    exact: true,
+    component: FormHelpersPage,
   },
   {
     path: '/components/tipografia',

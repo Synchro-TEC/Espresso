@@ -216,4 +216,21 @@ export default {
   </div>
 </form>`,
   formInline: ``,
+  progressBar: `<form class="sv-form">
+  <progress value="54" max="100" />
+</form>`,
+  validInvalid: `<form class="sv-form">
+  <div class="sv-row--with-gutter">
+      <div class="sv-column">
+          <label><span>Campo validado</span>
+              <input type="text" placeholder="valid" class="is--valid">
+          </label>
+      </div>
+      <div class="sv-column">
+          <label><span>Campo Invalidado</span>
+              <input type="text" placeholder="invalid" class="is--invalid">
+          </label>
+      </div>
+  </div>
+</form>`,
 };
