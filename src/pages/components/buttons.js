@@ -333,6 +333,148 @@ class ButtonsPage extends Component {
               code={ButtonExamples.fullExampleApollo}
               language="jsx"
             />
+
+            <h4 className="sv-fw-normal sv-ts-i">SvButton PropTypes</h4>
+            <hr />
+            <table className="sv-table with--hover with--borders">
+              <thead>
+                <tr>
+                  <th>Propriedade</th>
+                  <th>Tipo</th>
+                  <th>Descrição</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <code>className</code>
+                  </td>
+                  <td>
+                    <code>string</code>
+                  </td>
+                  <td>Classes CSS adicionais.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>color</code>
+                  </td>
+                  <td>
+                    <code>
+                      oneOf(['primary', 'info', 'danger', 'warning', <strong>'default'</strong>])
+                    </code>
+                  </td>
+                  <td>
+                    Definição de cores:<br />
+                    a) Background quando
+                  </td>
+                </tr>
+                <tr>
+                  <td>full</td>
+                  <td>bool</td>
+                  <td>
+                    Indica se o botão ocupará a área total. <strong>false</strong> é o default
+                  </td>
+                </tr>
+                <tr>
+                  <td>small</td>
+                  <td>bool</td>
+                  <td>
+                    Botão menor. <strong>false</strong> é o default
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h4 className="sv-fw-normal sv-ts-i">SvButtonOutline PropTypes</h4>
+            <hr />
+            <table className="sv-table with--hover with--borders">
+              <thead>
+                <tr>
+                  <th>Propriedade</th>
+                  <th>Tipo</th>
+                  <th>Descrição</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <code>className</code>
+                  </td>
+                  <td>
+                    <code>string</code>
+                  </td>
+                  <td>Classes CSS adicionais.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>color</code>
+                  </td>
+                  <td>
+                    <code>oneOf(['primary', 'info', 'danger', 'warning', 'default'])</code>
+                  </td>
+                  <td>
+                    Definição de cores:<br />
+                    a) Borda e texto
+                  </td>
+                </tr>
+                <tr>
+                  <td>full</td>
+                  <td>bool</td>
+                  <td>
+                    Indica se o botão ocupará a área total. <strong>false</strong> é o default
+                  </td>
+                </tr>
+                <tr>
+                  <td>small</td>
+                  <td>bool</td>
+                  <td>
+                    Botão menor. <strong>false</strong> é o default
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h4 className="sv-fw-normal sv-ts-i">SvButtonLink PropTypes</h4>
+            <hr />
+            <table className="sv-table with--hover with--borders">
+              <thead>
+                <tr>
+                  <th>Propriedade</th>
+                  <th>Tipo</th>
+                  <th>Descrição</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <code>className</code>
+                  </td>
+                  <td>
+                    <code>string</code>
+                  </td>
+                  <td>Classes CSS adicionais.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>color</code>
+                  </td>
+                  <td>
+                    <code>oneOf(['primary', 'info', 'danger', 'warning', 'default'])</code>
+                  </td>
+                  <td>
+                    Definição de cores:<br />
+                    a)Texto
+                  </td>
+                </tr>
+                <tr>
+                  <td>small</td>
+                  <td>bool</td>
+                  <td>
+                    Botão menor. <strong>false</strong> é o default
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </TabPanel>
         </Tabs>
       </div>
