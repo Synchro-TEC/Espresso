@@ -70,7 +70,7 @@ export default {
 
   example1Apollo: `
   import React, { Component } from 'react';
-  import { SvButton } from 'syntec-apollo-11';
+  import { SvButton, SvButtonOutline, SvButtonLink } from 'syntec-apollo-11';
 
   class Example extends Component {
     constructor(props){
@@ -80,45 +80,33 @@ export default {
     render() {
       return (
         <div>
-          <SvButton className="sv-mr--5" fill="primary">
+          <SvButton className="sv-mr--5" color="primary">
             Primary
           </SvButton>
           <SvButton className="sv-mr--5">
             Default
           </SvButton>
-        </div>
-      );
-    }
-  }
-  `,
-
-  outlineExampleApollo: `
-  import React, { Component } from 'react';
-  import { SvButtonOutline } from 'syntec-apollo-11';
-
-  class Example extends Component {
-    constructor(props){
-      super(props);
-    }
-
-    render() {
-      return (
-        <div>
-          <SvButtonOutline className="sv-mr--5" fill="primary">
+          <SvButtonOutline className="sv-mr--5" color="primary">
             Primary
           </SvButtonOutline>
           <SvButtonOutline className="sv-mr--5">
             Default
           </SvButtonOutline>
+          <SvButtonLink className="sv-mr--5" color="primary">
+            Primary
+          </SvButtonLink>
+          <SvButtonLink className="sv-mr--5">
+            Default
+          </SvButtonLink>
         </div>
       );
     }
   }
   `,
 
-  linkExampleApollo: `
+  smallExampleApollo: `
   import React, { Component } from 'react';
-  import { SvButtonLink } from 'syntec-apollo-11';
+  import { SvButton, SvButtonOutline, SvButtonLink } from 'syntec-apollo-11';
 
   class Example extends Component {
     constructor(props){
@@ -128,12 +116,48 @@ export default {
     render() {
       return (
         <div>
-          <SvButtonLink className="sv-mr--5" fill="primary">
+          <SvButtonLink className="sv-mr--5" color="primary" small>
             Primary
           </SvButtonLink>
-          <SvButtonLink className="sv-mr--5">
+          <SvButtonLink className="sv-mr--5" small>
             Default
           </SvButtonLink>
+          <SvButtonOutline className="sv-mr--5" color="primary" small>
+            Primary
+          </SvButtonOutline>
+          <SvButtonOutline className="sv-mr--5" small>
+            Default
+          </SvButtonOutline>
+          <SvButtonLink className="sv-mr--5" color="primary" small>
+            Primary
+          </SvButtonLink>
+          <SvButtonLink className="sv-mr--5" small>
+            Default
+          </SvButtonLink>
+        </div>
+      );
+    }
+  }
+  `,
+
+  fullExampleApollo: `  import React, { Component } from 'react';
+  import { SvButton, SvButtonOutline, SvButtonLink } from 'syntec-apollo-11';
+
+  class Example extends Component {
+    constructor(props){
+      super(props);
+    }
+
+    render() {
+      return (
+        <div>
+          <SvButton className="sv-mr--5" color="primary" full>
+            Primary
+          </SvButton>
+
+          <SvButtonOutline className="sv-mr--5" color="info" full>
+            Info
+          </SvButtonOutline>
         </div>
       );
     }

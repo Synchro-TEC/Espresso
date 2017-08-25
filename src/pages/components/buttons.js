@@ -7,84 +7,129 @@ import ButtonExamples from '../../codes/buttons';
 
 const buttonFullExampeShow = () =>
   <div>
-    <p>Exemplos de botões com preenchimento completo.</p>
     <p className="sv-text-center">
-      <SvButton className="sv-mr--5" fill="primary">
+      <SvButton className="sv-mr--5" color="primary">
         Primary
       </SvButton>
-      <SvButton className="sv-mr--5" fill="info">
+      <SvButton className="sv-mr--5" color="info">
         Info
       </SvButton>
-      <SvButton className="sv-mr--5" fill="danger">
+      <SvButton className="sv-mr--5" color="danger">
         Danger
       </SvButton>
-      <SvButton className="sv-mr--5" fill="warning">
+      <SvButton className="sv-mr--5" color="warning">
         Warning
       </SvButton>
       <SvButton className="sv-mr--5">Default</SvButton>
+    </p>
+
+    <p className="sv-padd-5" />
+
+    <p className="sv-text-center">
+      <SvButtonOutline className="sv-mr--5" color="primary">
+        Primary
+      </SvButtonOutline>
+      <SvButtonOutline className="sv-mr--5" color="info">
+        Info
+      </SvButtonOutline>
+      <SvButtonOutline className="sv-mr--5" color="danger">
+        Danger
+      </SvButtonOutline>
+      <SvButtonOutline className="sv-mr--5" color="warning">
+        Warning
+      </SvButtonOutline>
+      <SvButtonOutline className="sv-mr--5">Default</SvButtonOutline>
+    </p>
+
+    <p className="sv-padd-5" />
+
+    <p className="sv-text-center">
+      <SvButtonLink className="sv-mr--5" color="primary">
+        Primary
+      </SvButtonLink>
+      <SvButtonLink className="sv-mr--5" color="info">
+        Info
+      </SvButtonLink>
+      <SvButtonLink className="sv-mr--5" color="danger">
+        Danger
+      </SvButtonLink>
+      <SvButtonLink className="sv-mr--5" color="warning">
+        Warning
+      </SvButtonLink>
+      <SvButtonLink className="sv-mr--5">Default</SvButtonLink>
     </p>
   </div>;
 
 const smallButtonFullExampeShow = () =>
   <div>
-    <p>Exemplos de botões com preenchimento completo.</p>
     <p className="sv-text-center">
-      <SvButton className="sv-mr--5" fill="primary" small>
+      <SvButton className="sv-mr--5" color="primary" small>
         Primary
       </SvButton>
-      <SvButton className="sv-mr--5" fill="info" small>
+      <SvButton className="sv-mr--5" color="info" small>
         Info
       </SvButton>
-      <SvButton className="sv-mr--5" fill="danger" small>
+      <SvButton className="sv-mr--5" color="danger" small>
         Danger
       </SvButton>
-      <SvButton className="sv-mr--5" fill="warning" small>
+      <SvButton className="sv-mr--5" color="warning" small>
         Warning
       </SvButton>
       <SvButton className="sv-mr--5" small>
         Default
       </SvButton>
     </p>
-  </div>;
 
-const buttonOutlineExampeShow = () =>
-  <div>
-    <p>Exemplos de botões no estilo outline.</p>
+    <p className="sv-padd-5" />
+
     <p className="sv-text-center">
-      <SvButtonOutline className="sv-mr--5" fill="out-primary">
+      <SvButtonOutline className="sv-mr--5" color="primary" small>
         Primary
       </SvButtonOutline>
-      <SvButtonOutline className="sv-mr--5" fill="out-info">
+      <SvButtonOutline className="sv-mr--5" color="info" small>
         Info
       </SvButtonOutline>
-      <SvButtonOutline className="sv-mr--5" fill="out-danger">
+      <SvButtonOutline className="sv-mr--5" color="danger" small>
         Danger
       </SvButtonOutline>
-      <SvButtonOutline className="sv-mr--5" fill="out-warning">
+      <SvButtonOutline className="sv-mr--5" color="warning" small>
         Warning
       </SvButtonOutline>
-      <SvButtonOutline className="sv-mr--5">Default</SvButtonOutline>
+      <SvButtonOutline className="sv-mr--5" small>
+        Default
+      </SvButtonOutline>
+    </p>
+
+    <p className="sv-padd-5" />
+
+    <p className="sv-text-center">
+      <SvButtonLink className="sv-mr--5" color="primary" small>
+        Primary
+      </SvButtonLink>
+      <SvButtonLink className="sv-mr--5" color="info" small>
+        Info
+      </SvButtonLink>
+      <SvButtonLink className="sv-mr--5" color="danger" small>
+        Danger
+      </SvButtonLink>
+      <SvButtonLink className="sv-mr--5" color="warning" small>
+        Warning
+      </SvButtonLink>
+      <SvButtonLink className="sv-mr--5" small>
+        Default
+      </SvButtonLink>
     </p>
   </div>;
 
-const buttonLinkExampeShow = () =>
+const fullButtonExampeShow = () =>
   <div>
-    <p>Exemplos de botões no estilo de link.</p>
-    <p className="sv-text-center">
-      <SvButtonLink className="sv-mr--5" fill="link-primary">
-        Primary
-      </SvButtonLink>
-      <SvButtonLink className="sv-mr--5" fill="link-info">
-        Info
-      </SvButtonLink>
-      <SvButtonLink className="sv-mr--5" fill="link-danger">
-        Danger
-      </SvButtonLink>
-      <SvButtonLink className="sv-mr--5" fill="link-warning">
-        Warning
-      </SvButtonLink>
-      <SvButtonLink className="sv-mr--5">Default</SvButtonLink>
-    </p>
+    <SvButton className="sv-mr--5" color="primary" full>
+      Primary
+    </SvButton>
+
+    <SvButtonOutline className="sv-mr--5" color="info" full>
+      Info
+    </SvButtonOutline>
   </div>;
 
 const buttonStyles = () =>
@@ -240,27 +285,23 @@ class ButtonsPage extends Component {
               language="jsx"
             />
 
-            <ShowCase
-              height="210px"
-              example={buttonOutlineExampeShow}
-              code={ButtonExamples.outlineExampleApollo}
-              language="jsx"
-            />
-
-            <ShowCase
-              height="210px"
-              example={buttonLinkExampeShow}
-              code={ButtonExamples.linkExampleApollo}
-              language="jsx"
-            />
-
             <h4 className="sv-fw-normal sv-ts-i">Small Buttons</h4>
             <hr />
 
             <ShowCase
               height="210px"
               example={smallButtonFullExampeShow}
-              code={ButtonExamples.linkExampleApollo}
+              code={ButtonExamples.smallExampleApollo}
+              language="jsx"
+            />
+
+            <h4 className="sv-fw-normal sv-ts-i">Full Buttons</h4>
+            <hr />
+
+            <ShowCase
+              height="210px"
+              example={fullButtonExampeShow}
+              code={ButtonExamples.fullExampleApollo}
               language="jsx"
             />
           </TabPanel>
