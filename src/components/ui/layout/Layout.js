@@ -130,6 +130,11 @@ class Layout extends Component {
           </NavLink>
         </li>
         <li>
+          <NavLink activeClassName="selected" exact to="/components/form-helpers">
+            Form Helpers
+          </NavLink>
+        </li>
+        <li>
           <NavLink activeClassName="selected" exact to="/components/tipografia">
             Tipografia
           </NavLink>

@@ -120,7 +120,7 @@ class Cards extends Component {
   render() {
     return (
       <div>
-        <h3 className="sv-fw-normal sv-mb--25">CARDS</h3>
+        <h3 className="sv-fw-normal sv-mb--15">CARDS</h3>
         <Tabs className="ReactTabs">
           <TabList className="ReactTabs__tab-list">
             <Tab
