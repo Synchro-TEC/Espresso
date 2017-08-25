@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { SvRow, SvCol } from 'syntec-apollo-11';
-import { SvButton, SvButtonOutline, SvButtonLink } from 'syntec-apollo-11';
+import { SvButton, SvButtonOutline, SvButtonLink, SvButtonAnimated } from 'syntec-apollo-11';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import ShowCase from '../../components/business/showcase/showcase';
 import ButtonExamples from '../../codes/buttons';
@@ -118,6 +118,33 @@ const smallButtonFullExampeShow = () =>
       <SvButtonLink className="sv-mr--5" small>
         Default
       </SvButtonLink>
+    </p>
+  </div>;
+
+const smallButtonAnimatedExampeShow = () =>
+  <div>
+    <p className="sv-text-center">
+      <SvButtonAnimated className="sv-mr--5" color="primary" icon="mail">
+        Mail
+      </SvButtonAnimated>
+      <SvButtonAnimated className="sv-mr--5" color="info" icon="view">
+        View
+      </SvButtonAnimated>
+      <SvButtonAnimated className="sv-mr--5" color="danger" icon="exit">
+        Exit
+      </SvButtonAnimated>
+      <SvButtonAnimated className="sv-mr--5" color="warning" icon="search">
+        Search
+      </SvButtonAnimated>
+      <SvButtonAnimated className="sv-mr--5" icon="open">
+        Open
+      </SvButtonAnimated>
+      <SvButtonAnimated className="sv-mr--5" color="danger" icon="upload">
+        Upload
+      </SvButtonAnimated>
+      <SvButtonAnimated className="sv-mr--5" color="warning" icon="download">
+        Download
+      </SvButtonAnimated>
     </p>
   </div>;
 
@@ -301,6 +328,13 @@ class ButtonsPage extends Component {
             <ShowCase
               height="210px"
               example={fullButtonExampeShow}
+              code={ButtonExamples.fullExampleApollo}
+              language="jsx"
+            />
+
+            <ShowCase
+              height="210px"
+              example={smallButtonAnimatedExampeShow}
               code={ButtonExamples.fullExampleApollo}
               language="jsx"
             />
