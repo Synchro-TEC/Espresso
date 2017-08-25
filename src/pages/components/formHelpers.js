@@ -69,7 +69,7 @@ class FormHelpersPage extends Component {
   render() {
     return (
       <div>
-        <h3 className="sv-fw-normal sv-mb--25">FORM HELPERS</h3>
+        <h3 className="sv-fw-normal sv-mb--15">FORM HELPERS</h3>
         <Tabs className="ReactTabs">
           <TabList className="ReactTabs__tab-list">
             <Tab

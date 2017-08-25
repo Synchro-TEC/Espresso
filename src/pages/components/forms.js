@@ -264,7 +264,7 @@ class FormsPage extends Component {
   render() {
     return (
       <div>
-        <h3 className="sv-fw-normal sv-mb--25">FORMULÁRIOS</h3>
+        <h3 className="sv-fw-normal sv-mb--15">FORMULÁRIOS</h3>
         <Tabs className="ReactTabs">
           <TabList className="ReactTabs__tab-list">
             <Tab
@@ -279,10 +279,6 @@ class FormsPage extends Component {
               selectedClassName="ReactTabs__tab--selected"
               disabledClassName="ReactTabs__tab--disabled"
             >
-              <label>
-                <span data-info="(Optional)">Birth Date</span>
-                <input type="text" placeholder="dd/mm/yyyy" />
-              </label>
               Apollo-11
             </Tab>
           </TabList>
