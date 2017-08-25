@@ -121,6 +121,7 @@ const smallButtonFullExampeShow = () =>
     </p>
   </div>;
 
+/*  
 const smallButtonAnimatedExampeShow = () =>
   <div>
     <p className="sv-text-center">
@@ -147,6 +148,7 @@ const smallButtonAnimatedExampeShow = () =>
       </SvButtonAnimated>
     </p>
   </div>;
+*/
 
 const fullButtonExampeShow = () =>
   <div>
@@ -328,13 +330,6 @@ class ButtonsPage extends Component {
             <ShowCase
               height="210px"
               example={fullButtonExampeShow}
-              code={ButtonExamples.fullExampleApollo}
-              language="jsx"
-            />
-
-            <ShowCase
-              height="210px"
-              example={smallButtonAnimatedExampeShow}
               code={ButtonExamples.fullExampleApollo}
               language="jsx"
             />
