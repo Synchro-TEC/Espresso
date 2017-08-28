@@ -122,7 +122,7 @@ const segmentWithStyleExampleShow = () =>
     <SvCol>
       <SvSegment style="width: 300px; margin: 0px auto;">
         <img src="http://via.placeholder.com/300x120/429ce8/ffffff?text=Imagem" />
-        <p class="sv-pa--15">A text here</p>
+        <p className="sv-pa--15">A text here</p>
       </SvSegment>
     </SvCol>
 
@@ -303,7 +303,7 @@ class Cards extends Component {
             <ShowCase
               height="210px"
               example={cardHeaderEstilizadoExampleShow}
-              code={cardCodes.cardDefaultExampleShow}
+              code={cardCodes.cardHeaderStyledExampleShow}
               language="jsx"
             />
 
@@ -312,7 +312,7 @@ class Cards extends Component {
             <ShowCase
               height="340px"
               example={cardComGridExampleShow}
-              code={cardCodes.cardDefaultExampleShow}
+              code={cardCodes.cardGridExampleShow}
               language="jsx"
             />
 
@@ -321,7 +321,7 @@ class Cards extends Component {
             <ShowCase
               height="190px"
               example={segmentDefaultExampleShow}
-              code={cardCodes.cardDefaultExampleShow}
+              code={cardCodes.segmentExampleShow}
               language="jsx"
             />
 
@@ -330,7 +330,7 @@ class Cards extends Component {
             <ShowCase
               height="190px"
               example={segmentWithStyleExampleShow}
-              code={cardCodes.cardDefaultExampleShow}
+              code={cardCodes.styledSegmentExampleShow}
               language="jsx"
             />
           </TabPanel>
