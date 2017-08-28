@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { SvRow, SvCol } from 'syntec-apollo-11';
+import { SvCard, SvCardFooter, SvCardHeader, SvCardMain } from 'syntec-apollo-11';
+import { SvSegment } from 'syntec-apollo-11';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import ShowCase from '../../components/business/showcase/showcase';
 import cardCodes from '../../codes/cards';
@@ -25,6 +27,123 @@ const cardDefault = () =>
     </main>
     <footer>Do it</footer>
   </div>;
+
+const cardHeaderEstilizadoExampleShow = () =>
+  <SvCard>
+    <SvCard.Header className="sv-bg-color--gray-100">
+      <h4>My Card</h4>
+    </SvCard.Header>
+    <SvCard.Main>
+      Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis.
+    </SvCard.Main>
+    <SvCard.Footer>Do it</SvCard.Footer>
+  </SvCard>;
+
+const cardComGridExampleShow = () =>
+  <SvRow>
+    <SvCol>
+      <SvCard>
+        <SvCard.Header>
+          <h4>My Card</h4>
+        </SvCard.Header>
+        <SvCard.Main>
+          Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris,
+          paradis.
+        </SvCard.Main>
+        <SvCard.Footer>Do it</SvCard.Footer>
+      </SvCard>
+    </SvCol>
+
+    <SvCol>
+      <SvCard>
+        <SvCard.Header>
+          <h4>My Card</h4>
+        </SvCard.Header>
+        <SvCard.Main>
+          Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris,
+          paradis.
+        </SvCard.Main>
+        <SvCard.Footer>Do it</SvCard.Footer>
+      </SvCard>
+    </SvCol>
+
+    <SvCol>
+      <SvCard>
+        <SvCard.Header>
+          <h4>My Card</h4>
+        </SvCard.Header>
+        <SvCard.Main>
+          Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris,
+          paradis.
+        </SvCard.Main>
+        <SvCard.Footer>Do it</SvCard.Footer>
+      </SvCard>
+    </SvCol>
+
+    <SvCol>
+      <SvCard>
+        <SvCard.Header>
+          <h4>My Card</h4>
+        </SvCard.Header>
+        <SvCard.Main>
+          Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris,
+          paradis.
+        </SvCard.Main>
+        <SvCard.Footer>Do it</SvCard.Footer>
+      </SvCard>
+    </SvCol>
+
+    <SvCol>
+      <SvCard>
+        <SvCard.Header>
+          <h4>My Card</h4>
+        </SvCard.Header>
+        <SvCard.Main>
+          Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris,
+          paradis.
+        </SvCard.Main>
+        <SvCard.Footer>Do it</SvCard.Footer>
+      </SvCard>
+    </SvCol>
+  </SvRow>;
+
+const segmentDefaultExampleShow = () =>
+  <SvRow withGutter>
+    <SvCol>
+      <SvSegment>Texto 1</SvSegment>
+    </SvCol>
+    <SvCol>
+      <SvSegment>Texto 2</SvSegment>
+    </SvCol>
+  </SvRow>;
+
+const segmentWithStyleExampleShow = () =>
+  <SvRow withGutter>
+    <SvCol>
+      <SvSegment style="width: 300px; margin: 0px auto;">
+        <img src="http://via.placeholder.com/300x120/429ce8/ffffff?text=Imagem" />
+        <p class="sv-pa--15">A text here</p>
+      </SvSegment>
+    </SvCol>
+
+    <SvCol>
+      <SvSegment className="sv-pa--25 sv-bg-color--red-50">asdad</SvSegment>
+    </SvCol>
+    <SvCol>
+      <SvSegment className="sv-pa--15 sv-bg-color--blue-50">asdad</SvSegment>
+    </SvCol>
+  </SvRow>;
+
+const cardDefaultExampleShow = () =>
+  <SvCard>
+    <SvCard.Header>
+      <h4>My Card</h4>
+    </SvCard.Header>
+    <SvCard.Main>
+      Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis.
+    </SvCard.Main>
+    <SvCard.Footer>Do it</SvCard.Footer>
+  </SvCard>;
 
 const cardGrid = () =>
   <SvRow withGutter>
@@ -166,8 +285,54 @@ class Cards extends Component {
             <hr className="sv-mb--10" />
             <ShowCase example={segmentStyled} code={cardCodes.segmentStyled} height="300px" />
           </TabPanel>
+
           <TabPanel className="ReactTabs__tab-panel" selectedClassName="ReactTabs__tab-panel--selected">
-            <p>Em breve</p>
+            <h4 className="sv-fw-normal sv-ts-i">Card padrão</h4>
+            <hr />
+
+            <ShowCase
+              height="210px"
+              example={cardDefaultExampleShow}
+              code={cardCodes.cardDefaultExampleShow}
+              language="jsx"
+            />
+
+            <h4 className="sv-fw-normal sv-ts-i">Card com header estilizado</h4>
+            <hr />
+
+            <ShowCase
+              height="210px"
+              example={cardHeaderEstilizadoExampleShow}
+              code={cardCodes.cardDefaultExampleShow}
+              language="jsx"
+            />
+
+            <h4 className="sv-fw-normal sv-ts-i">Card com grid</h4>
+            <hr />
+            <ShowCase
+              height="340px"
+              example={cardComGridExampleShow}
+              code={cardCodes.cardDefaultExampleShow}
+              language="jsx"
+            />
+
+            <h4 className="sv-fw-normal sv-ts-i">Segmento default</h4>
+            <hr />
+            <ShowCase
+              height="190px"
+              example={segmentDefaultExampleShow}
+              code={cardCodes.cardDefaultExampleShow}
+              language="jsx"
+            />
+
+            <h4 className="sv-fw-normal sv-ts-i">Segmento com estilos</h4>
+            <hr />
+            <ShowCase
+              height="190px"
+              example={segmentWithStyleExampleShow}
+              code={cardCodes.cardDefaultExampleShow}
+              language="jsx"
+            />
           </TabPanel>
         </Tabs>
       </div>

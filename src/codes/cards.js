@@ -86,4 +86,5 @@ export default {
   </div>
 </div>
   `,
+  cardDefaultExampleShow: ``,
 };
