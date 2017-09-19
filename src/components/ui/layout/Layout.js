@@ -115,6 +115,16 @@ class Layout extends Component {
           </NavLink>
         </li>
         <li>
+          <NavLink activeClassName="selected" exact to="/components/modals">
+            Modais
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="selected" exact to="/components/confirm">
+            Confirm
+          </NavLink>
+        </li>
+        <li>
           <NavLink activeClassName="selected" exact to="/components/tags">
             tags
           </NavLink>
