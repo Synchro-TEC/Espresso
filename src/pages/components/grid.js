@@ -307,6 +307,3 @@ class Grid extends Component {
   }
 }
 export default Grid;
-// className: PropTypes.string,
-// fixedSize: PropTypes.oneOf(['_100--fixed', '_150--fixed', '_200--fixed', '_250--fixed', '_300--fixed']),
-// size: PropTypes.oneOf(['_20', '_25', '_40', '_60', '_75', '_80']),

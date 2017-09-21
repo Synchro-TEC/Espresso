@@ -16,6 +16,7 @@ import Breadcrumbs from './pages/components/breadcrumbs';
 import Loaders from './pages/components/loaders';
 import Messagebox from './pages/components/messageBox';
 import Tags from './pages/components/tags';
+import Modals from './pages/components/modals';
 import ButtonsPage from './pages/components/buttons';
 import FormsPage from './pages/components/forms';
 import FormHelpersPage from './pages/components/formHelpers';
@@ -116,6 +117,11 @@ const routes = [
     path: '/components/tags',
     exact: true,
     component: Tags,
+  },
+  {
+    path: '/components/modals',
+    exact: true,
+    component: Modals,
   },
   {
     path: '/components/buttons',
