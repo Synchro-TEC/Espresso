@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './header';
-import { SvRow } from 'syntec-apollo-11';
+import { SvRow, Hermes } from 'syntec-apollo-11';
 import { NavLink } from 'react-router-dom';
 
 class Layout extends Component {
@@ -120,11 +120,6 @@ class Layout extends Component {
           </NavLink>
         </li>
         <li>
-          <NavLink activeClassName="selected" exact to="/components/confirm">
-            Confirm
-          </NavLink>
-        </li>
-        <li>
           <NavLink activeClassName="selected" exact to="/components/tags">
             tags
           </NavLink>
@@ -191,6 +186,7 @@ class Layout extends Component {
       <SvRow className="sv-ma--0">
         <Header />
         {this.props.location.pathname === '/' ? this.renderHome() : this.renderPage()}
+        <Hermes />
       </SvRow>
     );
   }

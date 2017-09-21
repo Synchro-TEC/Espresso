@@ -17,7 +17,6 @@ import Loaders from './pages/components/loaders';
 import Messagebox from './pages/components/messageBox';
 import Tags from './pages/components/tags';
 import Modals from './pages/components/modals';
-import ConfirmPage from './pages/components/confirm';
 import ButtonsPage from './pages/components/buttons';
 import FormsPage from './pages/components/forms';
 import FormHelpersPage from './pages/components/formHelpers';
@@ -123,11 +122,6 @@ const routes = [
     path: '/components/modals',
     exact: true,
     component: Modals,
-  },
-  {
-    path: '/components/confirm',
-    exact: true,
-    component: ConfirmPage,
   },
   {
     path: '/components/buttons',
