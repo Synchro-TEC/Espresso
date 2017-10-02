@@ -10,7 +10,7 @@ body {
   min-height: 80px;
   top: 0;
   position: fixed;
-  z-index: 22;
+  z-index: 999;
 }
 
 .out-header::before {
@@ -20,12 +20,14 @@ body {
   left: -2%;
   position: fixed;
   width: 104%;
+  z-index: 998;
 }
 
 
 .out-header header {
   width: 90%;
   margin: 0 auto;
+  z-index: 999;
 }
 
 .navigation {
