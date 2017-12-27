@@ -38,15 +38,13 @@ class Contribuir extends Component {
         </ul>
         <br />
         <p>
-          <span className="sv-ts-i sv-ts-u">
-            Ao finalizar sua implementação, não se hesite em nos submeter um pull request!{' '}
+          <span className="sv-ts-i">
+            Ao finalizar sua implementação, não se hesite em nos submeter um{' '}
+            <span className="sv-ts-u">pull request</span>!{' '}
           </span>
           <i className="fa fa-thumbs-o-up sv-pl--5" aria-hidden="true" />
         </p>
-        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">
-          <i className="fa fa-check-square-o sv-pr--5" aria-hidden="true" />
-          Requisitos
-        </h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Requisitos</h4>
         <hr />
         <p>
           Para contribuir com nossos projetos, é necessário alguns requisitos mínimos em seu ambiente de trabalho, entre
@@ -78,6 +76,10 @@ class Contribuir extends Component {
         <p>
           Para instalar, abra um terminal e rode o comando <code className="sv-code"> npm install -g grunt-cli</code>
         </p>
+        <p>Para confirmar se a instalação foi feita com sucesso, execute o comando abaixo em seu terminal:</p>
+        <p>
+          <code className="sv-code">grunt -V</code> (Sim, com V maiúsculo)
+        </p>
         <h5>Yarn</h5>
         <p>
           Para instalar o gerenciador de dependência, acesse o{' '}
@@ -94,10 +96,7 @@ class Contribuir extends Component {
         <p>
           <code className="sv-code">yarn -v</code>
         </p>
-        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">
-          <i className="fa fa-code-fork sv-pr--5" aria-hidden="true" />
-          Contribuindo com o Saturn-V
-        </h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Contribuindo com o Saturn-V</h4>
         <hr />
         Para abertura de issues, acesse {' '}
         <a href="https://github.com/Synchro-TEC/saturn-v/issues">
@@ -126,10 +125,7 @@ class Contribuir extends Component {
             <code className="sv-code">grunt watch</code> em um terminal.
           </li>
         </ol>
-        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">
-          <i className="fa fa-code-fork sv-pr--5" aria-hidden="true" />
-          Contribuindo com o Apollo-11
-        </h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Contribuindo com o Apollo-11</h4>
         <hr />
         Para abertura de issues, acesse{' '}
         <a href="https://github.com/Synchro-TEC/apollo-11/issues">
@@ -161,10 +157,7 @@ class Contribuir extends Component {
             <code className="sv-code">yarn watch</code> em seu terminal.
           </li>
         </ol>
-        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">
-          <i className="fa fa-code-fork sv-pr--5" aria-hidden="true" />
-          Contribuindo com a documentação do Espresso
-        </h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Contribuindo com a documentação do Espresso</h4>
         <hr />
         Para abertura de issues, acesse{' '}
         <a href="https://github.com/Synchro-TEC/Espresso/issues">
