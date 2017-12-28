@@ -98,9 +98,9 @@ class Contribuir extends Component {
         </p>
         <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Contribuindo com o Saturn-V</h4>
         <hr />
-        Para abertura de issues, acesse {' '}
+        Para abertura de issues, acesse nosso {' '}
         <a href="https://github.com/Synchro-TEC/saturn-v/issues">
-          aqui
+          repositório
           <i className="fa fa-external-link sv-pl--5" aria-hidden="true" />
         </a>
         <p>Se você deseja nos ajudar no desenvolvimento e crescimento do Saturn-V, o processo é bem simples:</p>
@@ -127,9 +127,9 @@ class Contribuir extends Component {
         </ol>
         <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Contribuindo com o Apollo-11</h4>
         <hr />
-        Para abertura de issues, acesse{' '}
+        Para abertura de issues, acesse nosso {' '}
         <a href="https://github.com/Synchro-TEC/apollo-11/issues">
-          aqui <i className="fa fa-external-link fa-fw" />
+          repositório <i className="fa fa-external-link fa-fw" />
         </a>
         <p>Se você deseja nos ajudar no desenvolvimento e crescimento do Apollo-11, o processo também é bem simples:</p>
         <ol className="sv-ol">
@@ -159,9 +159,9 @@ class Contribuir extends Component {
         </ol>
         <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Contribuindo com a documentação do Espresso</h4>
         <hr />
-        Para abertura de issues, acesse{' '}
+        Para abertura de issues, acesse nosso {' '}
         <a href="https://github.com/Synchro-TEC/Espresso/issues">
-          aqui <i className="fa fa-external-link fa-fw" />
+          repositório <i className="fa fa-external-link fa-fw" />
         </a>
         <p>Se você deseja nos ajudar no desenvolvimento e crescimento do Espresso, o processo também é bem simples:</p>
         <ol className="sv-ol">
