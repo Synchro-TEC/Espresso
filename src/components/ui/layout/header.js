@@ -23,6 +23,11 @@ const Header = () => {
               COMPONENTES
             </NavLink>
           </li>
+          <li>
+            <a href="https://github.com/Synchro-TEC" target="blank">
+              <i className="fa fa-fw fa-2x fa-github" aria-hidden="true" />
+            </a>
+          </li>
         </ul>
       </header>
     </div>

@@ -222,9 +222,9 @@ class Tables extends Component {
           </TabList>
           <TabPanel className="ReactTabs__tab-panel" selectedClassName="ReactTabs__tab-panel--selected">
             <p>
-              Todas as tabales podem ser responsivas, basta encapsular o código da mesma em uma div com a classe{' '}
+              Todas as tabelas podem ser responsivas, basta encapsular o código da mesma em uma div com a classe{' '}
               <code className="sv-code">sv-table-responsive-vertical</code> e adicionar o atributo{' '}
-              <code className="sv-code">data-title</code> nas tags <code className="sv-code">td</code>
+              <code className="sv-code">data-title</code> nas tags <code className="sv-code">td</code>.
             </p>
             <h4 className="sv-fw-normal sv-ts-i">Tabela responsiva padrão</h4>
             <hr className="sv-mb--10" />

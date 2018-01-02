@@ -9,9 +9,9 @@ class Contraste extends Component {
         <p className="sv-text-large">
           Contraste é uma das formas de direcionar os usuários para as ações mais importantes de uma determinada
           interface, o uso coeso dessa tecnica é muito importante para uma navegação direcionada e fluída entre as
-          principais ações que o usuário pode (em alguns casos, <b>devem</b>) executar.
+          principais ações que o usuário pode (em alguns casos, <b>deve</b>) executar.
         </p>
-        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Direcionando as Ações</h4>
+        <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Direcionando as ações</h4>
         <hr />
         <SvRow>
           <SvCol>
@@ -65,8 +65,8 @@ class Contraste extends Component {
         <SvRow>
           <SvCol>
             <p>
-              No ESPRESSO, definimos 3 níveis de contraste em botões, do mais importante nível 1 até as ações com menos
-              importância nível 3. Veja na imagem a seguir o uso correto.
+              No ESPRESSO, definimos 3 níveis de contraste em botões, do mais importante de nível 1 até as ações com
+              menos importância de nível 3. Veja na imagem a seguir o uso correto.
             </p>
           </SvCol>
           <SvCol className="sv-pl--100">

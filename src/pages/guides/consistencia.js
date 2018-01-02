@@ -7,13 +7,13 @@ class Consistencia extends Component {
       <div>
         <h3 className="sv-fw-normal sv-mb--25">CONSISTÊNCIA</h3>
         <p className="sv-text-large">
-          Um tópico importantíssimo, que muitos nem sabem que existe e que muitas vezes é simplesmente esquecido é a tal
-          da <span className="sv-color--green-600">Consistência</span>.
+          Um tópico importantíssimo, que muitos nem sabem que existe e que muitas vezes é simplesmente esquecido, é a
+          tal da <span className="sv-color--green-600">Consistência</span>.
         </p>
         <h5>E o que é Consistência?</h5>
         <p className="sv-text-large">
           Consistência é sobre se manter fiel com suas escolhas, do início ao fim do projeto. Veja alguns pontos que vão
-          te ajudar a manter a Consistência de um projeto.
+          te ajudar a manter a <span className="sv-ts-i">consistência</span> de um projeto.
         </p>
         <ol className="sv-ol">
           <li>Pergunte sempre se o que você está resolvendo agora já não foi resolvido em outro lugar da aplicação.</li>
@@ -27,7 +27,7 @@ class Consistencia extends Component {
           <li>Mantenha o padrão de cores.</li>
           <li>
             Lembre-se, todos os elementos comuns da aplicação devem ter o mesmo look and feel em toda a aplicação, um
-            form deve se parecer um form em todos os lugares, assim como tabelas, botões, títulos, etc.
+            form deve ter a mesma aparência em todos os lugares, assim como tabelas, botões, títulos, etc.
           </li>
           <li>
             Não reinvente a roda, aproveite as experiências do usuário, muitos problemas comuns já foram resolvidos por

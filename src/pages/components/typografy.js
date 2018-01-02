@@ -114,12 +114,11 @@ class Typograph extends Component {
             <ShowCase example={fontWeights} code={typographyCodes.textWeights} height="160px" />
             <h5 className="sv-fw-normal sv-ts-i sv-mt--10">Estilos</h5>
             <p>
-              Temos disponíveis 3 estilos modificadores de texto, <code className="sv-code">sv-ts-i</code> para itático,{' '}
+              Temos disponíveis 3 estilos modificadores de texto, <code className="sv-code">sv-ts-i</code> para itálico,{' '}
               <code className="sv-code">sv-ts-u</code> para underline e <code className="sv-code">sv-ts-lt</code> para
               line through.
             </p>
             <ShowCase example={textStyles} code={typographyCodes.textStyles} height="160px" />
-            <h5 className="sv-fw-normal sv-ts-i sv-mt--10">Estilos</h5>
             <p>
               Estão disponíveis 3 opções para transformação de texto, <code className="sv-code">sv-tt-u</code> para
               texto em uppercase , <code className="sv-code">sv-tt-l</code> para texto em lowercase e{' '}
