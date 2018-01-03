@@ -7,12 +7,12 @@ class Direto extends Component {
       <div>
         <h3 className="sv-fw-normal sv-mb--25">SEJA DIRETO</h3>
         <p className="sv-text-large">
-          Objetividade, essa palavra resume muito bem como devemos comunicar a interface com o usuário. Evite termos
-          desconhecidos para tarefas simples, como por exemplo, em uma busca, use o termo <b>BUSCAR</b> para a ação e
-          não algo como: <b>ENCONTRE AQUI O QUE DESEJA</b>.
+          Objetividade. Essa palavra resume muito bem a maneira de como a interface deve se comunicar com o usuário.
+          Evite termos desconhecidos para tarefas simples, como por exemplo, em uma busca, use o termo <b>BUSCAR</b>{' '}
+          para a ação e não algo como: <b>ENCONTRE AQUI O QUE DESEJA</b>.
         </p>
         <p className="sv-text-large">
-          Uma boa prática é sempre usr o verbo que define a ação como label do botões e links, como <b>SALVAR</b>,{' '}
+          Uma boa prática é sempre usar o verbo que define a ação como label dos botões e links, como <b>SALVAR</b>,{' '}
           <b>CANCELAR</b>, <b>ENVIAR</b>, <b>EXPORTAR</b>, <b>ACEITAR</b>, etc.
         </p>
         <p className="sv-text-large">Procure usar sempre apenas uma palavra, um verbo que define/resume a ação.</p>

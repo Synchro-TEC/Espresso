@@ -8,7 +8,7 @@ class Synchro extends Component {
         <h3 className="sv-fw-normal sv-mb--25">SYNCHRO HEADERS</h3>
         <p className="sv-text-large">
           Os headers das aplicações Synchro devem seguir os estilos documentados neste artigo, lembrado que as cores do
-          header fica a cargo de cada aplicação, o guia a seguir define apenas medidas e formato e não cores.
+          header fica a cargo de cada aplicação, o guia a seguir define apenas medidas, formatos e não cores.
         </p>
         <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Header simples</h4>
         <hr />
@@ -39,7 +39,7 @@ class Synchro extends Component {
         <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Menu do usuário</h4>
         <hr />
         <p>
-          As bordas do container com informações devem obrigatoriamente ter a mesma cor do header, o mesmo se aplica
+          As bordas do container com informações devem obrigatóriamente ter a mesma cor do header, o mesmo se aplica
           para a borda da imagem do usuário ou sigla.
         </p>
         <p className="sv-text-center sv-pt--25">
@@ -48,15 +48,15 @@ class Synchro extends Component {
         <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Menu de Aplicações</h4>
         <hr />
         <p>
-          As bordas do container com os ícones devem obrigatoriamente ter a mesma cor do header, os ícones tem o tamanho
-          de 42px X 42px.
+          As bordas do container com os ícones devem obrigatóriamente ter a mesma cor do header, os ícones tem o tamanho
+          de 42px x 42px.
         </p>
         <p className="sv-text-center sv-pt--25">
           <img src={`${process.env.PUBLIC_URL}images/header-apps-opened.png`} height="auto" />
         </p>
         <h4 className="sv-fw-normal sv-ts-i sv-mt--40">Caixa de notificações</h4>
         <hr />
-        <p>As bordas do container de notificações devem obrigatoriamente ter a mesma cor do header.</p>
+        <p>As bordas do container de notificações devem obrigatóriamente ter a mesma cor do header.</p>
         <p className="sv-text-center sv-pt--25">
           <img src={`${process.env.PUBLIC_URL}images/header-notification-opened.png`} height="auto" />
         </p>

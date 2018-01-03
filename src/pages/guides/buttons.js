@@ -22,8 +22,8 @@ class Buttons extends Component {
               <button className="sv-button out-primary">Outline Button</button>
             </div>
             <div className="sv-mv--10 sv-mh--30 sv-text-left">
-              Usado para ações secundárias, não devem ser o único botão disponível em uma ação, eles sempre devem ser
-              usados como auxiliar aos botões sólidos, exemplo: desfazer, voltar, cancelar, etc...
+              Usado para ações secundárias, não deve ser o único botão disponível em uma ação, ele sempre deve ser usado
+              como um auxiliar aos botões sólidos, exemplo: desfazer, voltar, cancelar, etc...
             </div>
           </SvCol>
           <SvCol className="sv-text-center">
@@ -31,7 +31,7 @@ class Buttons extends Component {
               <button className="sv-button link link-primary">Link Button</button>
             </div>
             <div className="sv-mv--10 sv-mh--30 sv-text-left">
-              Usado onde as ações se parecem com um link, Eles também são usados em ações que propositalmente não
+              Usado onde as ações se parecem com um link, eles também são usados em ações que propositalmente não
               queremos dar destaque, como cancelar o preenchimento de um formulário.
             </div>
           </SvCol>
