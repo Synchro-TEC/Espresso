@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 import { SvRow, SvCol } from 'syntec-apollo-11';
+import SyntaxHighlighter, { registerLanguage } from 'react-syntax-highlighter/dist/light';
+import code from './../codes/install';
+import html from 'react-syntax-highlighter/dist/languages/xml';
+import atom from 'react-syntax-highlighter/dist/styles/atom-one-light';
+import { SvButton } from 'syntec-apollo-11';
+registerLanguage('html', html);
 
 class Home extends Component {
   render() {
@@ -140,6 +146,53 @@ class Home extends Component {
                   ouvir novas ideias, por isso nossos projetos estão sempre evoluindo, trazendo o que tem de melhor para
                   nos ajudar a fazer produtos melhores. Tem uma ideia? Quer fazer algo novo? Venha contar pra gente!
                 </p>
+              </SvCol>
+            </SvRow>
+          </div>
+        </div>
+
+        <div className="out-os">
+          <div className="devtools">
+            <SvRow className="sv-pt--50">
+              <SvCol size="_25">
+                <h2 className="sv-color--blue-400">
+                  Apollo-11 <i className="fa fa-download sv-pl--5" aria-hidden="true" />
+                </h2>
+                <p className="sv-text-large sv-pt--25 sv-pr--100">
+                  Para utilizar o Apollo-11 em seu projeto, basta executar um dos seguintes comandos em seu terminal.
+                </p>
+                <p>
+                  <code className="sv-code">npm install --save syntec-apollo-11</code>
+                </p>
+                <p>
+                  <code className="sv-code">yarn add syntec-apollo-11</code>
+                </p>
+              </SvCol>
+              <SvCol size="_25">
+                <h2 className="sv-color--blue-400">
+                  Saturn-V CDN <i className="fa fa-cloud-download sv-pl--5" aria-hidden="true" />
+                </h2>
+                <p className="sv-text-large sv-pt--25 sv-pr--100">
+                  Para utilizar o Saturn-V em sua aplicação, insira os links abaixo em seu código HTML.
+                </p>
+                <pre className="code-scroll">
+                  <SyntaxHighlighter language="html" style={atom}>
+                    {code.installSaturn}
+                  </SyntaxHighlighter>
+                </pre>
+              </SvCol>
+              <SvCol size="_25">
+                <h2 className="sv-color--blue-400">
+                  Exemplos
+                  <i className="fa fa-laptop sv-pl--10" aria-hidden="true" />
+                </h2>
+                <p className="sv-text-large sv-pt--25 sv-pr--100">
+                  Disponibilizamos alguns exemplos práticos prontos para uso livre utilizando 100% de nossos
+                  componentes.
+                </p>
+                <SvButton className="sv-mr--5" color="info">
+                  Explorar
+                </SvButton>
               </SvCol>
             </SvRow>
           </div>

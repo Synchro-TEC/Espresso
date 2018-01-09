@@ -280,6 +280,12 @@ body {
   bottom: -5px;
   background: #fff;
 }
+
+.code-scroll {
+  overflow-x: auto;
+  width: 500px;
+  white-space: nowrap;
+}
 /*
 
 @media screen and (min-width: 736px) {
