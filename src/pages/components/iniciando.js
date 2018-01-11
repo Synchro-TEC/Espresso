@@ -16,11 +16,24 @@ class Iniciando extends Component {
         <h4 className="sv-fw-normal sv-ts-i">Saturn-V</h4>
         <hr />
         <p>
-          A única configuração para o uso do Saturn-V é fazer o link dos arquivos do Saturn-V, diretamente de nossa CDN
-          em seu código HTML.
+          A única configuração para o uso do Saturn-V é fazer o link dos arquivos, diretamente de nossa CDN em seu
+          código HTML.
+        </p>
+        <p>
+          Alguns de nossos componentes faz o uso por padrão dos ícones do Font Awesome, com isso, é necessário
+          importá-lo também
         </p>
         <SyntaxHighlighter language="html" style={atom}>
           {code.installSaturn}
+        </SyntaxHighlighter>
+        <h4 className="sv-fw-normal sv-ts-i">Template básico</h4>
+        <hr />
+        <p>
+          Abaixo, um básico exemplo de como utilizar corretamente o Saturn-V em sua página HTML. Você pode copiar e
+          colar o template e verificar se tudo funciona corretamente em seu projeto.
+        </p>
+        <SyntaxHighlighter language="html" style={atom}>
+          {code.htmlTemplate}
         </SyntaxHighlighter>
         <h4 className="sv-fw-normal sv-ts-i">Apollo-11</h4>
         <hr />

@@ -159,9 +159,11 @@ class Home extends Component {
                 <h2 className="sv-color--blue-400">
                   Apollo-11 <i className="fa fa-download sv-pl--5" aria-hidden="true" />
                 </h2>
-                <p className="sv-text-large sv-pt--25 sv-pr--50">
-                  Para utilizar o Apollo-11 em seu projeto, basta executar um dos seguintes comandos em seu terminal.
+                <p className="sv-pt--25 sv-pr--50">
+                  Para utilizar o Apollo-11, basta executar um dos seguintes comandos em seu terminal para instalar a
+                  dependência em seu projeto.
                 </p>
+                <p className="sv-pr--100 sv-mb--25">A instalação pode ser feita tanto através do npm quanto do yarn.</p>
                 <p>
                   <code className="sv-code">npm install --save syntec-apollo-11</code>
                 </p>
@@ -174,7 +176,7 @@ class Home extends Component {
                   <h2 className="sv-color--blue-400">
                     Saturn-V CDN <i className="fa fa-cloud-download sv-pl--5" aria-hidden="true" />
                   </h2>
-                  <p className="sv-text-large sv-pt--25 sv-pr--100">
+                  <p className="sv-pt--25 sv-pr--100">
                     Para utilizar o Saturn-V em sua aplicação, insira os links abaixo em seu código HTML.
                   </p>
                   <div className="sv-mr--20">
@@ -192,7 +194,7 @@ class Home extends Component {
                     Contribuir
                     <i className="fa fa-code-fork sv-pl--10" aria-hidden="true" />
                   </h2>
-                  <p className="sv-text-large sv-pt--25 sv-pr--50">
+                  <p className="sv-pt--25 sv-pr--50">
                     Faça parte de nossa equipe contribuindo com o crescimento e evolução do Espresso.
                   </p>
                   <SvRow>
