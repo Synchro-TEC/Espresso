@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { SvButton, SvCol, SvRow } from 'syntec-apollo-11';
+import { SvButton, SvButtonOutline, SvCol, SvRow } from 'syntec-apollo-11';
 import { registerLanguage } from 'react-syntax-highlighter/dist/light';
 import { NavLink } from 'react-router-dom';
 import html from 'react-syntax-highlighter/dist/languages/xml';
@@ -115,28 +115,22 @@ class Home extends Component {
                   melhorias ou ainda implementando novas funcionalidades.
                 </p>
                 <SvRow className="sv-pl--50">
-                  <div>
+                  <div className="sv-mr--10">
                     <a
-                      className="github-button"
+                      target="blank"
+                      className="sv-button out-info small"
                       href="https://github.com/Synchro-TEC/Espresso/fork"
-                      data-icon="octicon-repo-forked"
-                      data-size="large"
-                      data-show-count="true"
-                      aria-label="Fork Synchro-TEC/Espresso on GitHub"
                     >
-                      Fork
+                      <i className="fa fa-code-fork fa-fw" aria-hidden="true" /> Fork
                     </a>
                   </div>
-                  <div className="sv-ml--10">
+                  <div className="sv-mr--10">
                     <a
-                      className="github-button"
-                      href="https://github.com/Synchro-TEC/Espresso/fork"
-                      data-icon="octicon-star"
-                      data-size="large"
-                      data-show-count="true"
-                      aria-label="Star Synchro-TEC/Espresso on GitHub"
+                      target="blank"
+                      className="sv-button out-info small"
+                      href="https://github.com/Synchro-TEC/Espresso"
                     >
-                      Star
+                      <i className="fa fa-star fa-fw" aria-hidden="true" /> Star
                     </a>
                   </div>
                   <SvCol className="sv-text-right sv-pr--100">
