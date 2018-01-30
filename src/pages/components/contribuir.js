@@ -53,7 +53,7 @@ class Contribuir extends Component {
         <h5>Node.js & npm</h5>
         <p>
           Para se trabalhar com nossos projetos, é indispensável que você possua instalado o Node.js e o NPM em seu
-          ambiente de trabalho. Acesso o{' '}
+          ambiente de trabalho. Acesse o{' '}
           <a href="https://nodejs.org/en/">
             site do Node.js
             <i className="fa fa-external-link sv-pl--5" aria-hidden="true" />
