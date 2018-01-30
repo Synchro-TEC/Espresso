@@ -283,11 +283,11 @@ body {
 
 .code-scroll {
   overflow-x: auto;
-  width: 450px;
+  width: 555px;
   white-space: nowrap;
 }
 
-.rodape-divisoria{
+.divisoria{
   border-right: 1px solid #c8d1dd;
 }
 /*

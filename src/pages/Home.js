@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import { SvRow, SvCol } from 'syntec-apollo-11';
-import SyntaxHighlighter, { registerLanguage } from 'react-syntax-highlighter/dist/light';
+import { SvButton, SvCol, SvRow } from 'syntec-apollo-11';
+import { registerLanguage } from 'react-syntax-highlighter/dist/light';
 import { NavLink } from 'react-router-dom';
-import { SvButton } from 'syntec-apollo-11';
-import code from './../codes/install';
 import html from 'react-syntax-highlighter/dist/languages/xml';
-import atom from 'react-syntax-highlighter/dist/styles/atom-one-light';
+
 registerLanguage('html', html);
 
 class Home extends Component {
@@ -116,6 +114,39 @@ class Home extends Component {
                   nossos projetos são Open Source, todos podem contribuir, seja usando e reportando problemas, sugerindo
                   melhorias ou ainda implementando novas funcionalidades.
                 </p>
+                <SvRow className="sv-pl--50">
+                  <div>
+                    <a
+                      className="github-button"
+                      href="https://github.com/Synchro-TEC/Espresso/fork"
+                      data-icon="octicon-repo-forked"
+                      data-size="large"
+                      data-show-count="true"
+                      aria-label="Fork Synchro-TEC/Espresso on GitHub"
+                    >
+                      Fork
+                    </a>
+                  </div>
+                  <div className="sv-ml--10">
+                    <a
+                      className="github-button"
+                      href="https://github.com/Synchro-TEC/Espresso/fork"
+                      data-icon="octicon-star"
+                      data-size="large"
+                      data-show-count="true"
+                      aria-label="Star Synchro-TEC/Espresso on GitHub"
+                    >
+                      Star
+                    </a>
+                  </div>
+                  <SvCol className="sv-text-right sv-pr--100">
+                    <NavLink activeClassName="selected" exact to="/components/como-contribuir">
+                      <SvButton className="sv-mr--5" color="info" small>
+                        Saiba mais
+                      </SvButton>
+                    </NavLink>
+                  </SvCol>
+                </SvRow>
               </SvCol>
               <SvCol size="_25">
                 <img
@@ -147,90 +178,6 @@ class Home extends Component {
                   ouvir novas ideias, por isso nossos projetos estão sempre evoluindo, trazendo o que tem de melhor para
                   nos ajudar a fazer produtos melhores. Tem uma ideia? Quer fazer algo novo? Venha contar pra gente!
                 </p>
-              </SvCol>
-            </SvRow>
-          </div>
-        </div>
-
-        <div className="out-os">
-          <div className="devtools">
-            <SvRow className="sv-pt--50">
-              <SvCol size="_25" className="rodape-divisoria">
-                <h2 className="sv-color--blue-400">
-                  Apollo-11 <i className="fa fa-download sv-pl--5" aria-hidden="true" />
-                </h2>
-                <p className="sv-pt--25 sv-pr--50">
-                  Para utilizar o Apollo-11, basta executar um dos seguintes comandos em seu terminal para instalar a
-                  dependência em seu projeto.
-                </p>
-                <p className="sv-pr--100 sv-mb--25">A instalação pode ser feita tanto através do npm quanto do yarn.</p>
-                <p>
-                  <code className="sv-code">npm install --save syntec-apollo-11</code>
-                </p>
-                <p>
-                  <code className="sv-code">yarn add syntec-apollo-11</code>
-                </p>
-              </SvCol>
-              <SvCol size="_25" className="rodape-divisoria">
-                <div className="sv-ml--25">
-                  <h2 className="sv-color--blue-400">
-                    Saturn-V CDN <i className="fa fa-cloud-download sv-pl--5" aria-hidden="true" />
-                  </h2>
-                  <p className="sv-pt--25 sv-pr--100">
-                    Para utilizar o Saturn-V em sua aplicação, insira os links abaixo em seu código HTML.
-                  </p>
-                  <div className="sv-mr--20">
-                    <pre className="code-scroll">
-                      <SyntaxHighlighter language="html" style={atom}>
-                        {code.installSaturn}
-                      </SyntaxHighlighter>
-                    </pre>
-                  </div>
-                </div>
-              </SvCol>
-              <SvCol size="_25">
-                <div className="sv-ml--25">
-                  <h2 className="sv-color--blue-400">
-                    Contribuir
-                    <i className="fa fa-code-fork sv-pl--10" aria-hidden="true" />
-                  </h2>
-                  <p className="sv-pt--25 sv-pr--50">
-                    Faça parte de nossa equipe contribuindo com o crescimento e evolução do Espresso.
-                  </p>
-                  <SvRow>
-                    <div>
-                      <a
-                        className="github-button"
-                        href="https://github.com/Synchro-TEC/Espresso/fork"
-                        data-icon="octicon-repo-forked"
-                        data-size="large"
-                        data-show-count="true"
-                        aria-label="Fork Synchro-TEC/Espresso on GitHub"
-                      >
-                        Fork
-                      </a>
-                    </div>
-                    <div className="sv-ml--10">
-                      <a
-                        className="github-button"
-                        href="https://github.com/Synchro-TEC/Espresso/fork"
-                        data-icon="octicon-star"
-                        data-size="large"
-                        data-show-count="true"
-                        aria-label="Star Synchro-TEC/Espresso on GitHub"
-                      >
-                        Star
-                      </a>
-                    </div>
-                    <SvCol className="sv-text-center">
-                      <NavLink activeClassName="selected" exact to="/components/como-contribuir">
-                        <SvButton className="sv-mr--5" color="info" small>
-                          Saiba mais
-                        </SvButton>
-                      </NavLink>
-                    </SvCol>
-                  </SvRow>
-                </div>
               </SvCol>
             </SvRow>
           </div>
